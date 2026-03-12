@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "image_WCXgxF": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/SHF_Logo.png",
+            "link": ""
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Info",
+            "footer_linklist": "footer"
+          }
+        },
+        "menu_3iAfhk": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Policies",
+            "footer_linklist": "policies"
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": "Stay Connected"
+          }
+        }
+      },
+      "block_order": [
+        "image_WCXgxF",
+        "menu",
+        "menu_3iAfhk",
+        "social"
+      ],
+      "custom_css": [
+        "a {color: #fff9eb;}"
+      ],
+      "settings": {
+        "alignment": "left",
+        "heading_font_size": 16,
+        "color_scheme": "dark"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "disabled": true,
+      "settings": {
+        "show_methods_of_payment": false,
+        "center_content_on_desktop": false,
+        "footer_text": "",
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "color_scheme": "dark"
+      }
+    }
+  },
+  "order": [
+    "footer-main",
+    "footer-bottom"
+  ]
+}

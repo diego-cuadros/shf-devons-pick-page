@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "7b9b6ce1-c67e-4a5a-8365-800b4a3d83d2": {
+      "type": "events-calendar",
+      "blocks": {
+        "template--21006983201061__7b9b6ce1-c67e-4a5a-8365-800b4a3d83d2-event-1": {
+          "type": "event",
+          "settings": {
+            "grid_image_size": "square",
+            "day": 10,
+            "month": "Jan",
+            "tbc": false,
+            "day_time": "Saturday, 7:30pm",
+            "price": "",
+            "event_heading": "Event heading",
+            "event_location": "Location",
+            "url": "",
+            "btn_text": "More info"
+          }
+        }
+      },
+      "block_order": [
+        "template--21006983201061__7b9b6ce1-c67e-4a5a-8365-800b4a3d83d2-event-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "description": "",
+        "layout": "grid",
+        "cards_per_row": 4,
+        "expand_card": false,
+        "colors": "white"
+      }
+    },
+    "animated_text_BeRYBM": {
+      "type": "animated-text",
+      "blocks": {
+        "text_static_CfhAfm": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>Book the Farmstand for</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_D3EiHC": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "birthdays, corporate events, rehearsal dinners, special moments,",
+            "animation_timing": 500,
+            "rotation_interval": 4600,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "button_jezfKx": {
+          "type": "button",
+          "settings": {
+            "button_url": "",
+            "button_text": "Reserve the Farmstand",
+            "color_button_background": "rgba(0,0,0,0)",
+            "color_button_text": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_CfhAfm",
+        "text_dynamic_D3EiHC",
+        "button_jezfKx"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "left",
+        "text_size_desktop": 54,
+        "height_mobile": "full",
+        "text_position_mobile": "left",
+        "text_size_mobile": 22,
+        "colors": "white"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "template_product_info_columns_ftprnD": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Vh444E": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/about23.jpg",
+            "grid_image_size": "wide",
+            "heading": "",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_C74rw4": {
+          "type": "text",
+          "settings": {
+            "heading": "Amenities",
+            "text": "<ul><li>Free Wi-fi </li><li>Indoor seating</li><li>Large tables</li><li>Outdoor firepits</li><li>Smaller indoor tables</li><li>TV for Sports & Events</li><li>Covered outdoor seating  </li></ul>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Vh444E",
+        "text_C74rw4"
+      ],
+      "settings": {
+        "description": "",
+        "columns_per_row": 2,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "7b9b6ce1-c67e-4a5a-8365-800b4a3d83d2",
+    "animated_text_BeRYBM",
+    "main",
+    "template_product_info_columns_ftprnD"
+  ]
+}

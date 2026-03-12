@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "shipping_policy": true,
+            "tax_included": false
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "thumbnail_changes_variant": true
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true,
+            "enable_gift_card_recipient_form": true
+          }
+        },
+        "cross-sells": {
+          "type": "cross-sells",
+          "settings": {
+            "title": "Don't forget these...",
+            "cross_sell_product_1": "",
+            "cross_sell_product_2": "",
+            "cross_sell_product_3": ""
+          }
+        },
+        "product_description_cgbKp8": {
+          "type": "product-description",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "info",
+            "heading": "Description",
+            "open_close_icon": "caret"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "options",
+        "quantity",
+        "buy_buttons",
+        "cross-sells",
+        "product_description_cgbKp8"
+      ],
+      "settings": {
+        "enable_sticky": true
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "settings": {
+        "enable_readmore": true
+      }
+    },
+    "app-product-reviews": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "template_product_recommendations_Ugq6VQ": {
+      "type": "template--product--recommendations",
+      "settings": {}
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "app-product-reviews",
+    "template_product_recommendations_Ugq6VQ"
+  ]
+}

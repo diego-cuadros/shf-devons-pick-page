@@ -1,0 +1,435 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "image_with_text_overlay_HNc9jk": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_c3jb44": {
+          "type": "heading",
+          "settings": {
+            "title": "Devon Lévesque's Elite Mastermind",
+            "font_size_desktop": 61,
+            "font_size_mobile": 38,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_tTUACJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+ High-Impact Group Calls </p><p>+ World-Class Speakers </p><p>+ Entrepreneurial Acceleration</p>",
+            "font_size_desktop": 30,
+            "font_size_mobile": 24,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_c3jb44",
+        "text_tTUACJ"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/D20A2767.jpg",
+        "height_desktop": "100vh",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 65,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 57
+      }
+    },
+    "rich_text_zdzJPJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tik7Cy": {
+          "type": "heading",
+          "settings": {
+            "heading": "For High Performers, Founders & Future CEOs",
+            "heading--text-size": 26,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_a7n7N8": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Led by Devon Lévesque owner, Sweet Honey Farm, this immersive mastermind combines high-performance wellness, elite business mentorship, and a purpose-driven community to help you unlock your next level. You can attend the  mastermind from anywhere; the calls are virtual, the training and nutrition programs will be yours to manage day-to-day. We've made this as easy as possible to get access to a kickass group of men and women who will elevate your desire to thrive. </p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_fhiFrx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "https://calendly.com/kat-sweethoneyfarm/30min?month=2025-06",
+            "button_text": "Book a Call with Devon",
+            "buttons_style": "outlined",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tik7Cy",
+        "richtext_a7n7N8",
+        "button_fhiFrx"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 45,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "hero_YAajiG": {
+      "type": "hero",
+      "settings": {
+        "homepage-hero-featured-content": "homepage-hero-image-selection",
+        "home-page-hero-image": "shopify://shop_images/DevoninbeeHivewithmember.jpg",
+        "video_url": "",
+        "video_alt_text": "",
+        "homepage-hero-video-loop": false,
+        "homepage-hero-video-autoplay": true,
+        "homepage-hero-video-mute": false,
+        "show_controls": false,
+        "homepage-hero-image-heading": "",
+        "homepage-hero-image-description": "",
+        "homepage-hero-image-link": "",
+        "homepage-hero-image-button-label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 20,
+        "section_padding_bottom": 20,
+        "colors": "white",
+        "text-color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "rich_text_cDqXYV": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_b7T7Nh": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>You’ll build lasting habits, upgrade your body and mind, and learn directly from billionaires, pro athletes, and world-class experts.With diagnostic testing, private training, and live strategy sessions, this isn’t a retreat—it’s your launchpad to lasting impact, personal clarity, and serious growth.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 30
+          }
+        }
+      },
+      "block_order": [
+        "richtext_b7T7Nh"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 10,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_MAzc79": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "custom_class": "",
+        "image": "shopify://shop_images/DSC09104.jpg",
+        "layout": "left",
+        "title": "Upcoming Master Chats",
+        "text": "<ul><li>Join from anywhere. Dates coming soon. </li><li>Steven Vigilante of Olipop </li><li>Dr. Sam an Orthopedic Specialist </li><li>Chris Howell a Master of Communications </li><li>DJ Sackman a globally recognized Backetball Skills Coach </li><li>Stephen Ellsworth founder of Poppi </li><li>Robbie Bent founder of Othership </li><li>Dr. Jon An Everest Expert </li><li>Todd Anderson a Sleep Specialist </li><li>Robby Wade founder of Rythm </li><li>Rick Steele an Athlete turned founder </li></ul>",
+        "text_alignment": "left",
+        "text_overlapping_image": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "accordion_6DMhYy": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_n3cfKH": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Live Mastermind Classes",
+            "open_by_default": false,
+            "text": "<p>Powerful sessions with Devon and his inner circle—covering mindset, business, health, and performance. Designed to help you level up in every area of your life.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_n87mik": {
+          "type": "tab_content",
+          "settings": {
+            "question": "In-Person Live Events @ Sweet Honey Farm",
+            "open_by_default": false,
+            "text": "<p>Unforgettable gatherings to connect with the community, reset your vision, and build lifelong relationships.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_DD8GQf": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Comprehensive Blood Panel Test",
+            "open_by_default": false,
+            "text": "<p>Get real insight into your body with a full panel of biomarkers—so your nutrition and training are rooted in data, not guesswork<em>.</em></p>",
+            "page": ""
+          }
+        },
+        "tab_content_C94YDw": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Personalized Nutrition Program",
+            "open_by_default": false,
+            "text": "<p>Custom-built based on your bloodwork and goals to fuel your energy, focus, and long-term health.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_TWG3x6": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Strength & Conditioning Program",
+            "open_by_default": false,
+            "text": "<p>Train with purpose using the exact structure Devon follows—designed to build mental and physical resilience.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_mtpTDw": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Access to Sweet Honey Farm",
+            "open_by_default": false,
+            "text": "<p>Enjoy daily access to our world-class farm space—pickleball courts, basketball, sauna, gym, trails, and more. Your home base for growth and connection</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_n3cfKH",
+        "tab_content_n87mik",
+        "tab_content_DD8GQf",
+        "tab_content_C94YDw",
+        "tab_content_TWG3x6",
+        "tab_content_mtpTDw"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "<strong>What’s Included</strong>",
+        "description": "",
+        "faq_icon": "caret",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "accent"
+      }
+    },
+    "rich_text_GeEMtk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cFxYQr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upgrade to the Annual Membership",
+            "heading--text-size": 26,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_XFXz6b": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Stay for the long game. When your 60 days end, keep the momentum going with full Sweet Honey Farm access all year long—plus exclusive member-only events, programming, and perks.</p><p><strong>Bonus Upgrade Option (for Current Members)</strong></p><p><strong>Add unlimited Aescape massage sessions</strong> to your membership for just $500/month. Relax and recover like a pro.</p>",
+            "text_size": 16,
+            "text_bottom_spacing": 30
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFxYQr",
+        "richtext_XFXz6b"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 55,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "hero_cEjTJa": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "homepage-hero-featured-content": "homepage-hero-image-selection",
+        "home-page-hero-image": "shopify://shop_images/1Z9A5032.jpg",
+        "video_url": "",
+        "video_alt_text": "",
+        "homepage-hero-video-loop": false,
+        "homepage-hero-video-autoplay": true,
+        "homepage-hero-video-mute": false,
+        "show_controls": false,
+        "homepage-hero-image-heading": "",
+        "homepage-hero-image-description": "",
+        "homepage-hero-image-link": "",
+        "homepage-hero-image-button-label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 20,
+        "section_padding_bottom": 20,
+        "colors": "white",
+        "text-color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "image_with_text_cQt8RG": {
+      "type": "image-with-text",
+      "settings": {
+        "custom_class": "",
+        "image": "shopify://shop_images/1Z9A5032.jpg",
+        "layout": "left",
+        "title": "More About Devon",
+        "text": "<p>A world record holder and entrepreneur who’s summited Mount Everest and built and sold multiple companies. He’s the founder of brands like PROMIX, Sweet Honey Farm, and All Day Running and an investor in game-changers like Gopuff, OLIPOP, and more. Devon lives by one motto: live life for a living—and now, he’s opening the door for others to do the same.</p>",
+        "text_alignment": "center",
+        "text_overlapping_image": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 40,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
+    "image_with_text_7xbVAJ": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "image": "shopify://shop_images/IMG_1108.jpg",
+        "layout": "right",
+        "title": "Meet Joe Sullivan (a.k.a. Sully)",
+        "text": "<p>Joe Sullivan, founder of Sully’s Training Systems, brings 10+ years of experience helping people build sustainable habits, boost performance, and feel great in their bodies. His 60-Day Health Transformation program blends functional strength, mobility, and cardio with nutritional guidance and Promix supplementation. Whether you join the group classes at Sweet Honey Farm or train solo, you’ll follow the same structured plan designed for real-life results. No fluff—just proven systems and a supportive community to keep you on track.</p>",
+        "text_alignment": "center",
+        "text_overlapping_image": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 40,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "rich_text_WmTYaE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KWJ9P8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to rise? This is where your next chapter begins.",
+            "heading--text-size": 26,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "button_J4cgbK": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://pages/membership",
+            "button_text": "Become a Member",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        },
+        "button_JdLhXr": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "https://calendly.com/kat-sweethoneyfarm/30min?month=2025-06",
+            "button_text": "Book a Call",
+            "buttons_style": "outlined",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_KWJ9P8",
+        "button_J4cgbK",
+        "button_JdLhXr"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 45,
+        "section_padding_bottom": 60,
+        "colors": "accent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_HNc9jk",
+    "rich_text_zdzJPJ",
+    "hero_YAajiG",
+    "rich_text_cDqXYV",
+    "image_with_text_MAzc79",
+    "accordion_6DMhYy",
+    "rich_text_GeEMtk",
+    "hero_cEjTJa",
+    "image_with_text_cQt8RG",
+    "image_with_text_7xbVAJ",
+    "rich_text_WmTYaE"
+  ]
+}

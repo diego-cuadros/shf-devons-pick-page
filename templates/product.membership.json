@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h3",
+            "margin_bottom": 10
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_font": "h3",
+            "shipping_policy": true,
+            "tax_included": false,
+            "margin_bottom": 10
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant_style": "swatches",
+            "hide_out_of_stock_variants": false,
+            "thumbnail_changes_variant": true,
+            "size_guide_label": "",
+            "size_guide_page": "",
+            "size_option_name": "Size",
+            "margin_bottom": 20
+          }
+        },
+        "loop_subscriptions_loop_widget_bHXghF": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": false,
+            "enable_gift_card_recipient_form": false,
+            "margin_bottom": 20,
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "product_description_cgbKp8": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "none",
+            "heading": "DESCRIPTION",
+            "open_close_icon": "caret",
+            "open_by_default": true,
+            "margin_bottom": 10
+          }
+        },
+        "collapsible_tab_rpf8wG": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "heading": "DELIVERY & RETURNS",
+            "open_close_icon": "caret",
+            "open_by_default": false,
+            "icon": "none",
+            "text": "<p>Orders placed before 2pm EST will ship same day.</p><p>Ground shipping usually arrives 2-5 days.</p><p>Expedited shipping usually arrives 1-3 days.</p><p>Sales are final. No Return. No Refunds.</p>",
+            "page": "",
+            "margin_bottom": 30
+          }
+        },
+        "complementary_products_MKWi3e": {
+          "type": "complementary-products",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "title": "Pairs well with...",
+            "products_limit": 4,
+            "collapsible_tab": true,
+            "open_close_icon": "caret",
+            "open_by_default": true,
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "options",
+        "loop_subscriptions_loop_widget_bHXghF",
+        "buy_buttons",
+        "product_description_cgbKp8",
+        "collapsible_tab_rpf8wG",
+        "complementary_products_MKWi3e"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "media_position": "left",
+        "image_size": "large",
+        "image_shape": "square",
+        "image-display": "thumbnails",
+        "thumbnail_position": "left",
+        "image_display_mobile": "thumbnails",
+        "enable_video_loop": false,
+        "enable_autoplay": false,
+        "show_video_controls": false,
+        "app_margin_bottom": 30
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "disabled": true,
+      "settings": {
+        "open_close_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "enable_readmore": true
+      }
+    },
+    "featured_collection_WGeUfQ": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Other Membership Opportunities",
+        "description": "",
+        "collection": "memberships",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 2,
+        "grid-desktop": 2,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "rich_text_pzBFWa": {
+      "type": "rich-text",
+      "blocks": {
+        "button_zKG3PX": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://pages/membership",
+            "button_text": "Explore All Memberships",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "button_zKG3PX"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "collage_JCTTh3": {
+      "type": "collage",
+      "blocks": {
+        "image_eWFLke": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Sweet_Honey_Farm_Co._Holding_Chicken_in_Farm_Tee.jpg",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_bbJgBq": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/SweetHoneyFarmCo.Women_sHorseshoeCropTop-FloralTrio.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_He8Tj3": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Summer_2025_Product_Drop_Web_Optimized.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_7XwXwb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Sweet_Honey_Farm_Co._Highland_Cow.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_RRGFim": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/DSC08977_1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading": "",
+            "heading_size": 60,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_eWFLke",
+        "image_bbJgBq",
+        "image_He8Tj3",
+        "image_7XwXwb",
+        "image_RRGFim"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "174607343045f73863": {
+      "type": "apps",
+      "blocks": {
+        "kiwi_size_chart_recommender_kiwi_sizing_NCpmPy": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}",
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
+        }
+      },
+      "block_order": [
+        "kiwi_size_chart_recommender_kiwi_sizing_NCpmPy"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "featured_collection_WGeUfQ",
+    "rich_text_pzBFWa",
+    "collage_JCTTh3",
+    "174607343045f73863"
+  ]
+}

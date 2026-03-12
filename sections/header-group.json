@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "<strong>BLACK FRIDAY SALE LIVE: UP TO 30% OFF (Discount applied at checkout automatically)</strong>",
+            "announcement_bg_color": "#e95050",
+            "announcement_text_color": "#ffffff"
+          }
+        },
+        "announcement_K3DNxM": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "Shop Mens",
+            "announcement_bg_color": "#f9f9fb",
+            "announcement_text_color": "#262428"
+          }
+        }
+      },
+      "block_order": [
+        "announcement",
+        "announcement_K3DNxM"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_social_icons": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "",
+            "image_1_aspect_ratio": "square",
+            "mega_image_link_1": "",
+            "mega_image_subheader_1": "",
+            "mega_image_header_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#ffffff",
+            "image_2_aspect_ratio": "square",
+            "mega_image_link_2": "",
+            "mega_image_subheader_2": "",
+            "mega_image_header_2": "",
+            "show_promo_2_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "custom_css": [
+        "header {border: 0px;}",
+        ".site-nav--mobile a {display: none;}"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "overlay_header_homepage": false,
+        "overlay_header_collection": false,
+        "overlay_header_list_collection": false,
+        "overlay_header_contact": false,
+        "logo": "shopify://shop_images/SHF_Logo.png",
+        "logo-placement": "left",
+        "logo_max_width": 175,
+        "logo_max_width_mobile": 100,
+        "logo_padding": 20,
+        "main_linklist": "sp-2025-menu",
+        "dropdown_alignment": "left",
+        "mobile_social_icons": false,
+        "show_currency_selector": false,
+        "show_locale_selector": false,
+        "show_icons": true,
+        "enable_search": true,
+        "cart-style": "shopping-bag",
+        "cart_count": true,
+        "show_offers_drawer": false,
+        "offers_drawer_icon": "fire",
+        "offers_drawer_icon_color": "#f2bd35",
+        "offers_drawer_show_tooltip": false,
+        "offers_drawer_tooltip_test_mode": false,
+        "offers_drawer_tooltip_text": "Don't miss today's offers!",
+        "offers_drawer_tooltip_text_color": "#ffffff",
+        "offers_drawer_tooltip_background_color": "#f2bd35",
+        "overlay_opacity": 84
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

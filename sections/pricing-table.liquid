@@ -1,0 +1,285 @@
+{% comment %}
+  Pricing Table Section (fully editable)
+  - Unlimited plans (add/remove blocks)
+  - Per-plan features via textareas (Included / Not included) — one item per line
+  - Optional highlight badge (e.g., “Most Popular”)
+  - Button text + link
+  - Heading + subheading
+  - Self-contained CSS (no external assets)
+
+  Tip for features:
+  - Put each feature on its own line in "Included features" (✓)
+  - Put each feature on its own line in "Excluded features" (✗)
+{% endcomment %}
+
+<section class="xp-pricing show-on-scroll {% if section.settings.section_bg %}xp-pricing--bg{% endif %}" id="section-{{ section.id }}">
+  <div class="xp-container" style="max-width: {{ section.settings.max_width }}px">
+   
+  {% render 'dynamic-section-header' with section_title: section.settings.heading, section_description: section.settings.subheading %}
+
+    {% assign plans = section.blocks | where: 'type', 'plan' %}
+    <div class="xp-grid xp-grid--cols-{{ section.settings.columns_mobile }} md:xp-grid--cols-{{ section.settings.columns_tablet }} lg:xp-grid--cols-{{ section.settings.columns_desktop }}">
+      {% for block in plans %}
+        {%- comment %}<locksmith:eeb0>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:eeb0>{% endcomment -%}
+        {% assign inc = block.settings.features_included | newline_to_br | split: '<br />' %}
+        {% assign exc = block.settings.features_excluded | newline_to_br | split: '<br />' %}
+        <div class="xp-card {% if block.settings.highlight %}xp-card--highlight{% endif %}" {{ block.shopify_attributes }}>
+          {% if block.settings.highlight and block.settings.badge_text != blank %}
+            <div class="xp-badge">{{ block.settings.badge_text }}</div>
+          {% endif %}
+
+          <div class="xp-card-body">
+            {% if block.settings.plan_title != blank %}
+              <h3 class="xp-plan-title">{{ block.settings.plan_title }}</h3>
+            {% endif %}
+            {% if block.settings.plan_subtitle != blank %}
+              <p class="xp-plan-subtitle">{{ block.settings.plan_subtitle }}</p>
+            {% endif %}
+
+            <div class="xp-price-wrap">
+              <div class="xp-price">
+                {% if block.settings.price_prefix != blank %}
+                  <span class="xp-price-prefix">{{ block.settings.price_prefix }}</span>
+                {% endif %}
+                <span class="xp-price-main">{{ block.settings.price }}</span>
+              </div>
+              {% if block.settings.price_suffix != blank %}
+                <span class="xp-price-suffix">{{ block.settings.price_suffix }}</span>
+              {% endif %}
+            </div>
+
+            {% if inc.size > 0 or exc.size > 0 %}
+              <ul class="xp-features">
+                {% for item in inc %}
+                  {% assign trimmed = item | strip %}
+                  {% if trimmed != '' %}
+                    <li class="xp-feature xp-feature--yes">
+                      <span class="xp-ico" aria-hidden="true">
+                        <!-- Check icon -->
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.09 5.5498L8.46497 15.1748L4.08997 10.7998" stroke="#10B981" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                      </span>
+                      <span class="xp-feature-text">{{ trimmed }}</span>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+
+                {% for item in exc %}
+                  {% assign trimmed = item | strip %}
+                  {% if trimmed != '' %}
+                    <li class="xp-feature xp-feature--no">
+                      <span class="xp-ico" aria-hidden="true">
+                        <!-- Cross icon -->
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.995 5L4.995 15" stroke="#8B0000" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.995 5L14.995 15" stroke="#8B0000" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                      </span>
+                      <span class="xp-feature-text">{{ trimmed }}</span>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% if block.settings.button_label != blank %}
+              <a class="btn" href="{{ block.settings.button_link | default: '#' }}">
+                {{ block.settings.button_label }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <style>
+    /* ---------- Base ---------- */
+    #section-{{ section.id }} .xp-container{margin:0 auto;padding:32px 16px;}
+    #section-{{ section.id }} .xp-title{
+      margin:0 0 10px;font-size:36px;line-height:1.15;text-align:center;font-weight:700;letter-spacing:.2px;
+    }
+    #section-{{ section.id }} .xp-subtitle{
+      margin:0 auto 28px;max-width:800px;text-align:center;opacity:.8;font-size:16px;line-height:1.6;
+    }
+
+    /* ---------- Grid ---------- */
+    #section-{{ section.id }} .xp-grid{display:grid;gap:20px;}
+    #section-{{ section.id }} .xp-grid.xp-grid--cols-1{grid-template-columns:1fr;}
+    #section-{{ section.id }} .md\:xp-grid--cols-2{ }
+    #section-{{ section.id }} .lg\:xp-grid--cols-3{ }
+
+    @media (min-width: 768px){
+      #section-{{ section.id }} .md\:xp-grid--cols-2{grid-template-columns:repeat(2,1fr);}
+    }
+    @media (min-width: 1100px){
+      #section-{{ section.id }} .xp-grid.lg\:xp-grid--cols-3{grid-template-columns:repeat(3,1fr);}
+    }
+
+    /* ---------- Cards ---------- */
+    #section-{{ section.id }} .xp-card{
+      position:relative;border:1px solid #DFE6E3;border-radius:14px;background:#fff;
+      box-shadow:0 1px 0 rgba(10,25,20,.02);
+      transition:.3s all ease-in-out;
+    }
+    #section-{{ section.id }} .xp-card:hover{
+      border-color:#5B705F; /* deep green */
+      box-shadow:0 12px 30px rgba(20,50,35,.10);
+    }
+    #section-{{ section.id }} .xp-card--highlight{
+      border-color:#5B705F; /* deep green */
+      box-shadow:0 12px 30px rgba(20,50,35,.10);
+    }
+    #section-{{ section.id }} .xp-badge{
+      position:absolute;left:50%;top:-14px;transform:translateX(-50%);
+      background:#5B705F;color:#fff;padding:6px 12px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;
+    }
+    #section-{{ section.id }} .xp-card-body{padding:26px 24px 24px;}
+
+    #section-{{ section.id }} .xp-plan-title{
+      font-size:24px;line-height:1.2;margin:8px 0 2px;text-align:center;
+    }
+    @media only screen and (max-width:768px){
+     #section-{{ section.id }} .xp-plan-title{
+      font-size:18px;
+     }
+    }
+    #section-{{ section.id }} .xp-plan-subtitle{
+      text-align:center;margin:0 0 16px;opacity:.75;
+    }
+.xp-card:not(:hover):not(.xp-card--highlight) .btn {
+    background: #EAEAEA;
+    color: #000;
+}
+.xp-card .btn {
+    width:100%;
+      transition:.3s all ease-in-out;
+}
+
+    /* ---------- Price ---------- */
+    #section-{{ section.id }} .xp-price-wrap{display:flex;align-items:flex-end;justify-content:center;margin:6px 0 18px;gap:8px;}
+    #section-{{ section.id }} .xp-price{display:flex;align-items:flex-end;gap:4px;}
+    #section-{{ section.id }} .xp-price-prefix{font-size:30px;line-height:1;font-weight:700;}
+    #section-{{ section.id }} .xp-price-main{font-size:30px;line-height:1.05;font-weight:800;}
+    #section-{{ section.id }} .xp-price-suffix{font-size:16px;opacity:.7;margin-bottom:6px;}
+
+    /* ---------- Features ---------- */
+    #section-{{ section.id }} .xp-features{list-style:none;padding:0;margin:0 0 18px;display:flex;flex-direction:column;gap:10px;}
+    #section-{{ section.id }} .xp-feature{display:flex;align-items:flex-start;gap:10px;}
+    #section-{{ section.id }} .xp-ico{display:inline-flex;width:22px;height:22px;flex:0 0 22px;align-items:center;justify-content:center;margin-top:1px;}
+    #section-{{ section.id }} .xp-ico-svg{width:22px;height:22px;}
+    #section-{{ section.id }} .xp-feature--yes .xp-ico{color:#5B705F;}
+    #section-{{ section.id }} .xp-feature--no .xp-ico{color:#C7CFCC;}
+    #section-{{ section.id }} .xp-feature--no .xp-feature-text{opacity:.75;}
+
+    /* ---------- Button ---------- */
+    #section-{{ section.id }} .xp-btn{
+      display:flex;align-items:center;justify-content:center;width:100%;
+      background:#5B705F;color:#fff;padding:14px 18px;border-radius:12px;font-weight:700;text-decoration:none;
+      transition:transform .06s ease, box-shadow .2s ease, background .2s ease;
+    }
+    #section-{{ section.id }} .xp-card:not(.xp-card--highlight) .xp-btn{background:#E7ECEA;color:#35423B;}
+    #section-{{ section.id }} .xp-btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(20,50,35,.12);}
+    #section-{{ section.id }} .xp-btn:active{transform:translateY(0);box-shadow:none;}
+
+    /* Optional subtle section background */
+    #section-{{ section.id }}.xp-pricing--bg{background:linear-gradient(180deg,#FAFBFA, #FFFFFF);}
+    .xp-pricing {
+    background: #fff;
+    padding: 60px 0;
+}
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Pricing table (editable)",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Choose Your Experience" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "From day passes to founding membership, find the perfect level of access for your wellness and business journey." },
+    { "type": "range", "id": "max_width", "min": 700, "max": 1400, "step": 10, "unit": "px", "label": "Max width", "default": 1100 },
+    { "type": "checkbox", "id": "section_bg", "label": "Soft background", "default": false },
+
+    { "type": "select", "id": "columns_mobile", "label": "Columns on mobile", "default": "1",
+      "options": [{"value":"1","label":"1"}]
+    },
+    { "type": "select", "id": "columns_tablet", "label": "Columns on tablet (≥768px)", "default": "2",
+      "options": [{"value":"2","label":"2"},{"value":"1","label":"1"}]
+    },
+    { "type": "select", "id": "columns_desktop", "label": "Columns on desktop (≥1100px)", "default": "3",
+      "options": [{"value":"3","label":"3"},{"value":"2","label":"2"}]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "plan",
+      "name": "Plan",
+      "settings": [
+        { "type": "text", "id": "plan_title", "label": "Plan title", "default": "Member" },
+        { "type": "text", "id": "plan_subtitle", "label": "Plan subtitle", "default": "Full access to our community" },
+
+        { "type": "text", "id": "price_prefix", "label": "Price prefix (e.g. $)", "default": "$" },
+        { "type": "text", "id": "price", "label": "Price", "default": "445" },
+        { "type": "text", "id": "price_suffix", "label": "Price suffix (e.g. /month)", "default": "/month" },
+
+        { "type": "checkbox", "id": "highlight", "label": "Highlight this plan", "default": false },
+        { "type": "text", "id": "badge_text", "label": "Highlight badge text", "default": "Most Popular" },
+
+        { "type": "textarea", "id": "features_included", "label": "Included features (✓) — one per line", "default": "Weekly Calls (Live + Replay)\nGroup Chats (Growth Community)\nInvestment Access\nProperty Access (2x/month)\nAmenities (Visit Days)\nBlood Testing\nEvents + Gatherings\nGuest Access (1/visit)" },
+        { "type": "textarea", "id": "features_excluded", "label": "Not included (✗) — one per line" },
+
+        { "type": "text", "id": "button_label", "label": "Button label", "default": "Apply Now" },
+        { "type": "url", "id": "button_link", "label": "Button link" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing table (3 plans)",
+      "blocks": [
+        { "type": "plan", "settings": {
+          "plan_title":"Day Passer",
+          "plan_subtitle":"Perfect for testing the waters",
+          "price_prefix":"$",
+          "price":"250",
+          "price_suffix":"/day",
+          "highlight": false,
+          "badge_text":"",
+          "features_included":"Property Access (1 day)\nAmenities\nBlood Testing\nEvents + Gatherings",
+          "features_excluded":"Weekly Calls\nGroup Chats\nInvestment Access\nGuest Access",
+          "button_label":"Apply Now"
+        }},
+        { "type": "plan", "settings": {
+          "plan_title":"Member",
+          "plan_subtitle":"Full access to our community",
+          "price_prefix":"$",
+          "price":"445",
+          "price_suffix":"/month",
+          "highlight": true,
+          "badge_text":"Most Popular",
+          "features_included":"Weekly Calls (Live + Replay)\nGroup Chats (Growth Community)\nInvestment Access\nProperty Access (2x/month)\nAmenities (Visit Days)\nBlood Testing\nEvents + Gatherings\nGuest Access (1/visit)",
+          "features_excluded":"",
+          "button_label":"Apply Now"
+        }},
+        { "type": "plan", "settings": {
+          "plan_title":"Founding Member",
+          "plan_subtitle":"Exclusive founder-level access",
+          "price_prefix":"$",
+          "price":"645",
+          "price_suffix":"/month",
+          "highlight": false,
+          "badge_text":"",
+          "features_included":"Weekly Calls (Live + Replay)\nGroup Chats (Founders & Investors)\nInvestment Access (Exclusive)\nProperty Access (Daily)\nAmenities (All Access)\nBlood Testing\nEvents + Gatherings\nGuest Access (3/month)",
+          "features_excluded":"",
+          "button_label":"Apply Now"
+        }}
+      ]
+    }
+  ]
+}
+{% endschema %}

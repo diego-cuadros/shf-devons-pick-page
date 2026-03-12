@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "shipping_policy": true,
+            "tax_included": false
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "thumbnail_changes_variant": false
+          }
+        },
+        "stock-level-indicator": {
+          "type": "stock-level-indicator",
+          "settings": {
+            "stock-range": 20,
+            "stock-level-notice": "always",
+            "show-stock-count": false,
+            "in-stock-message": "In stock",
+            "low-stock-message": "Selling fast!",
+            "out-of-stock-message": "Back in stock soon",
+            "stock-level-indicator-style": "bar",
+            "bar-indicator-color": "standard",
+            "stock_indicator_animation": true
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true,
+            "enable_gift_card_recipient_form": true
+          }
+        },
+        "local_pickup": {
+          "type": "local_pickup",
+          "settings": {}
+        },
+        "collapsible-tab-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "open_close_icon": "caret",
+            "icon": "info"
+          }
+        },
+        "collapsible-tab-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "open_close_icon": "caret",
+            "icon": "clock"
+          }
+        },
+        "collapsible-tab-2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "open_close_icon": "caret",
+            "icon": "heart"
+          }
+        },
+        "cross-sells": {
+          "type": "cross-sells",
+          "settings": {}
+        },
+        "social_sharing": {
+          "type": "social_sharing",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "options",
+        "stock-level-indicator",
+        "quantity",
+        "buy_buttons",
+        "local_pickup",
+        "collapsible-tab-0",
+        "collapsible-tab-1",
+        "collapsible-tab-2",
+        "cross-sells",
+        "social_sharing"
+      ],
+      "settings": {
+        "enable_sticky": true
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "settings": {
+        "enable_readmore": false
+      }
+    },
+    "animated-text": {
+      "type": "animated-text",
+      "blocks": {
+        "animated-text-0": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>Shout about how</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "animated-text-1": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "amazing,fantastic,bestselling,jaw-dropping",
+            "animation_timing": 500,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "animated-text-2": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>your product is</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "animated-text-0",
+        "animated-text-1",
+        "animated-text-2"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "right",
+        "text_size_desktop": 40,
+        "height_mobile": "m",
+        "text_position_mobile": "right",
+        "text_size_mobile": 40,
+        "colors": "light"
+      }
+    },
+    "apps": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "info-columns": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text-0": {
+          "type": "image_and_text",
+          "settings": {
+            "heading": "Heading",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text-1": {
+          "type": "image_and_text",
+          "settings": {
+            "heading": "Heading",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text-2": {
+          "type": "image_and_text",
+          "settings": {
+            "heading": "Heading",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text-3": {
+          "type": "image_and_text",
+          "settings": {
+            "heading": "Heading",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text-0",
+        "image_and_text-1",
+        "image_and_text-2",
+        "image_and_text-3"
+      ],
+      "settings": {
+        "description": "",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "colors": "white"
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "template--product--recently-viewed",
+      "settings": {}
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "animated-text",
+    "apps",
+    "info-columns",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}

@@ -1,0 +1,398 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h1",
+            "margin_bottom": 0
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_font": "h3",
+            "shipping_policy": false,
+            "tax_included": false,
+            "margin_bottom": 30
+          }
+        },
+        "f0f0e917-92a5-4957-a68e-2d0bb38d7819": {
+          "type": "separator",
+          "settings": {
+            "margin_bottom": 30
+          }
+        },
+        "options": {
+          "type": "options",
+          "disabled": true,
+          "settings": {
+            "variant_style": "swatches",
+            "hide_out_of_stock_variants": false,
+            "thumbnail_changes_variant": false,
+            "size_guide_label": "Size guide",
+            "size_guide_page": "",
+            "size_option_name": "Size",
+            "margin_bottom": 30
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "margin_bottom": 30
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": false,
+            "enable_gift_card_recipient_form": false,
+            "margin_bottom": 30,
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "a55b9011-1b1a-4353-9d97-7bdcd60949f2": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": false,
+            "icon": "none",
+            "heading": "Description",
+            "open_close_icon": "plus_minus",
+            "open_by_default": false,
+            "margin_bottom": 30
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
+        "options",
+        "quantity",
+        "buy_buttons",
+        "a55b9011-1b1a-4353-9d97-7bdcd60949f2"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "media_position": "left",
+        "image_size": "medium",
+        "image_shape": "square",
+        "image-display": "thumbnails",
+        "thumbnail_position": "below",
+        "image_display_mobile": "thumbnails",
+        "enable_video_loop": true,
+        "enable_autoplay": false,
+        "show_video_controls": false,
+        "app_margin_bottom": 20
+      }
+    },
+    "rich_text_Jx4NH9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bx3Kh9": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Day at Sweet Honey Farm",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_YNRL3z": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>This isn’t your typical workspace. Grab a day pass and post up with your laptop—we’ve got strong WiFi and stronger coffee. Knock out calls, then shift gears. Goat yoga in the morning. Technogym workout or a lift in the barn. Infrared sauna. Hyperbaric chamber. Or go full send: 230°F sauna, 35°F plunge. Reset your nervous system. Feed a baby cow. Saddle up and ride a horse. Grab fresh food, meet real people, and breathe clean air. This place is built for founders, creatives, and operators who need space to think, move, and reconnect.</p>",
+            "text_size": 20,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_bx3Kh9",
+        "richtext_YNRL3z"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "accent"
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "blocks": {
+        "product-description": {
+          "type": "product_description",
+          "settings": {
+            "collapsible_tab": true,
+            "title": "Description",
+            "open_by_default": false
+          }
+        },
+        "collapsible-tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "title": "Product details",
+            "open_by_default": false,
+            "text": "<p>Share some information about your product</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "product-description",
+        "collapsible-tab-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "open_close_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "enable_readmore": false
+      }
+    },
+    "c7ab43da-1c42-44ba-aec6-6b75934adc16": {
+      "type": "template--product--recently-viewed",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "accordion_zyq6EA": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_3qtjjM": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What are the farm's hours?",
+            "open_by_default": false,
+            "text": "<p>Sweet Honey Farm is open daily, Monday through Sunday. However, some dates may be unavailable for Day Pass guests due to private events. </p><p><strong>Spring/Summer Hours</strong><br/></p><p>Entire Property</p><ul><li>Mon–Tue: 10 AM–6 PM</li><li>Wed–Fri: 10 AM–8 PM</li><li>Sat–Sun: 10 AM–3 PM</li></ul><p>The Farmstand</p><ul><li>Mon–Sun: 10 AM–3 PM</li></ul><p>The Farmstand Meals</p><ul><li>10:30 AM–11:30 AM</li><li> 1:30 PM–3 PM</li><li>12 PM–2 PM (soup, bone broth, and build-your-own salads available)</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_content_nCqJgM": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I check in?",
+            "open_by_default": false,
+            "text": "<p>Head to The Farmhouse and enter through the red French doors. A team member at the front desk will check you in and help you complete a waiver.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_wC9QjG": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What’s included with a Day Pass?",
+            "open_by_default": false,
+            "text": "<ul><li>Full access to all fitness, wellness, and recovery amenities</li><li>Participation in one scheduled workout class (or open gym access if no class is running)</li><li>One farm-fresh meal (choose breakfast or lunch at check-in)</li><li>Guided property tours available upon request</li><li>Complimentary WiFi throughout the grounds</li></ul><p><em>Bonus: If you become a member after your visit, you’ll receive a $250 credit toward your membership.</em><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_content_YeBJDi": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What should I wear?",
+            "open_by_default": false,
+            "text": "<p>We recommend comfortable activewear, workout clothes, and closed-toe shoes. Don’t forget a bathing suit for the sauna or cold plunge, plus sunscreen and a hat for sunny days.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_dLfGDy": {
+          "type": "tab_content",
+          "settings": {
+            "question": "I have a dietary restriction—what should I do?",
+            "open_by_default": false,
+            "text": "<p>Just let us know when you check in. Our on-site chef will be happy to accommodate your needs.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_UpNbGD": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I interact with the animals?",
+            "open_by_default": false,
+            "text": "<p>Yes, with supervision and staff approval. For the safety of our animals and guests, entering paddocks or feeding animals without permission is strictly prohibited.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_3qtjjM",
+        "tab_content_nCqJgM",
+        "tab_content_wC9QjG",
+        "tab_content_YeBJDi",
+        "tab_content_dLfGDy",
+        "tab_content_UpNbGD"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "title": "FAQs",
+        "description": "",
+        "faq_icon": "caret",
+        "section_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "collage_BXyfXh": {
+      "type": "collage",
+      "blocks": {
+        "image_tAtzmt": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Membersdoignsoundbowlingym.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_LYN8kx": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Membersplankingingym.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_NGxLBX": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MembersBearcrawlingingrass.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_CxtCVx": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Memberspettingcows.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_rpLhYP": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/membersguidedonhorses.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_tAtzmt",
+        "image_LYN8kx",
+        "image_NGxLBX",
+        "image_CxtCVx",
+        "image_rpLhYP"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "rich_text_Jx4NH9",
+    "product-description",
+    "c7ab43da-1c42-44ba-aec6-6b75934adc16",
+    "accordion_zyq6EA",
+    "collage_BXyfXh"
+  ]
+}

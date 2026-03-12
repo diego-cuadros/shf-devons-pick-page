@@ -1,0 +1,986 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "rich_text_hVakFY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kJfYgn": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Sweet Honey Farm Experience",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_qbmddA": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Nestled in Monmouth County, New Jersey, our 20-acre haven combines wellness, community, and sustainable living. Surrounded by lush gardens and organic farmland, we offer coworking spaces, wellness amenities, and immersive farm experiences. Our vibrant community cultivates a balanced lifestyle through hands-on activities, events, and holistic practices. </p>",
+            "text_size": 18,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_kJfYgn",
+        "richtext_qbmddA"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_HNc9jk": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_desktop": "shopify://shop_images/4-34.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "300px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 20
+      }
+    },
+    "rich_text_jptFNL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6qGafa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interested in a day pass or membership?",
+            "heading--text-size": 24,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_qpCPeH": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Fill out the form and we’ll be get touch with more info!</p>",
+            "text_size": 18,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_6qGafa",
+        "richtext_qpCPeH"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "175017632708c56590": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_GebyTV": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SWzbbm\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_GebyTV"
+      ],
+      "settings": {
+        "section_padding_top": 20,
+        "section_padding_bottom": 20,
+        "include_margins": true
+      }
+    },
+    "gallery_slideshow_MeTnxV": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_CDJDFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SWEETHONEYFARM--3345.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Organic garden",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BFbGAM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/51-71.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "State-of-the-art gym",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3zJiKc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Photo_Mar_20_2025_1_03_45_PM_1.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Basketball and pickleball court",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NnGFiQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farmstand-3_41b4d889-975f-4431-8f2c-712c410f9f9e.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Cafe serving fresh snacks",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DhrHNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mainhouse-2_26da5ce3-1843-4049-900c-bdd6d518937a.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Coworking spaces",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_CDJDFh",
+        "image_BFbGAM",
+        "image_3zJiKc",
+        "image_NnGFiQ",
+        "image_DhrHNh"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "tall",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 20,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "rich_text_4tPJGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XmG39E": {
+          "type": "heading",
+          "settings": {
+            "heading": "Home on the Farm.",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_gdmVWH": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Sweet Honey Farm is my sanctuary, where nature, wellness, and community come together in harmony. Rooted in simplicity and sustainable practices, it’s a place to connect with the land, enjoy farm-fresh food, and embrace health through amenities like a sauna, cold plunges, and a barn gym. Inspired by Blue Zones, the farm is my vision for a haven that nurtures both body and spirit, helping people live longer, healthier lives while fostering meaningful connections.</p>",
+            "text_size": 18,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_XmG39E",
+        "richtext_gdmVWH"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 30,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_HxWN9V": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_WYjw4P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Devon_loving_on_horse.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WYjw4P"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "tall",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "none",
+        "peek_desktop": false,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 50,
+        "section_padding_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "rich_text_8KnfDE": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PGdFnx": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Sweet Honey Farm embodies the pursuit of excellence, refusing to settle for anything less. We foster a community that values simplicity, sustainability, and connection, blending wellness amenities with organic farming to create a harmonious haven.</p>",
+            "text_size": 18,
+            "text_bottom_spacing": 30
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PGdFnx"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_BWhV7P": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_desktop": "shopify://shop_images/GGB03233.jpg",
+        "height_desktop": "550px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "300px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 20
+      }
+    },
+    "rich_text_Yb4dFH": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_GeAapi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>We cultivate a lifestyle of simplicity and joy by growing fresh produce and fostering connections through wellness, farm-to-table experiences, and community events. We believe that embracing pleasure and nature can inspire a deeper appreciation for life and the world around us.</p>",
+            "text_size": 18,
+            "text_bottom_spacing": 30
+          }
+        }
+      },
+      "block_order": [
+        "richtext_GeAapi"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_mQrFty": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Mq8C8J": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/51-71.jpg",
+            "grid_image_size": "square",
+            "heading": "State-of-the-Art Gym",
+            "text": "<p>Learn about agriculture, livestock, and farming firsthand.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_wMB6Y9": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/41-56.jpg",
+            "grid_image_size": "square",
+            "heading": "Recovery Lounge & Deck",
+            "text": "<p>Learn about agriculture, livestock, and farming firsthand.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_tCMdcD": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/RedLight.png",
+            "grid_image_size": "square",
+            "heading": "Red Light Therapy",
+            "text": "<p>Learn about agriculture, livestock, and farming firsthand.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_dqYHjm": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/shf-export-resize.jpg",
+            "grid_image_size": "square",
+            "heading": "Sauna & Cold Plunge",
+            "text": "<p>Learn about agriculture, livestock, and farming firsthand.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Mq8C8J",
+        "image_and_text_wMB6Y9",
+        "image_and_text_tCMdcD",
+        "image_and_text_dqYHjm"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "Member Benefits",
+        "description": "",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "section_width": "full",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "accent"
+      }
+    },
+    "template_product_info_columns_PTKVm8": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_bUVDtK": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/nick-fewings-qlLCBkTSYAI-unsplash.jpg",
+            "grid_image_size": "square",
+            "heading": "Fresh Eggs",
+            "text": "<p>Collect farm fresh eggs from our friendly chickens every day.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_TcDcxJ": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/shf_horse_resize.jpg",
+            "grid_image_size": "square",
+            "heading": "Animal & Equine Therapy",
+            "text": "<p>Experienced or beginner, you can trust our retired police horses.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_P8QHnb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/3_0e03f523-12af-4cc3-9802-223b2a9fda9b.jpg",
+            "grid_image_size": "square",
+            "heading": "Hand-Picked Organic Produce",
+            "text": "<p>Bring home organic, in-season produce from the garden.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_DGeBmC": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/5_277f17e4-14c0-4dc5-9486-92b4908fdbc5.jpg",
+            "grid_image_size": "square",
+            "heading": "Hands on Farming",
+            "text": "<p>Learn about agriculture, livestock, and farming firsthand.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_bUVDtK",
+        "image_and_text_TcDcxJ",
+        "image_and_text_P8QHnb",
+        "image_and_text_DGeBmC"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "Member Perks",
+        "description": "<p>Discover a new level of peace, healing, inspiration and health benefits that farmland offers. </p>",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "section_width": "full",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "accent"
+      }
+    },
+    "gallery_slideshow_R9b6rV": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_BnrzkL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4c89cc76-7b39-45ee-82fe-28f144970a94_b7a1447c-229f-4ba9-adfd-e5d20f64698e.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Animal encounters",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_itgBif": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GOATS_MOBILE.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Goat yoga",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_b8EwWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Devon_picking_product.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Farm-to-table meals",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QYFT9h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-elevate-1267320.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "Private events",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_BnrzkL",
+        "image_itgBif",
+        "image_b8EwWD",
+        "image_QYFT9h"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "tall",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 30,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_slideshow_LNfAMx": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_7zxNpF": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/shf.jpg",
+            "subheading": "",
+            "heading": "Our Three Pillars",
+            "text": "<p>Find yourself immersed in a world of unique, engaged community across three major pillars designed to enrich your daily routine and provide a peaceful escape from the busyness of everyday life:</p><h5>Farm Experiences</h5><p>Immerse yourself in farm life and experience the physical and mental health benefits that come with getting hands-on. Pick fresh produce in the garden, connect with animals, collect fresh eggs and more.<br/></p><h5>World-Class Amenities</h5><p>Exclusive amenities centered around wellness and recovery. Members enjoy unlimited access to everything from saunas, red-light therapy, cold plunges, infrared sauna and more.</p><p></p><h5>Community Events</h5><p>Be part of our vibrant community through purposeful events like farm Fridays, family days, movie nights, farm education classes, and weekly group workouts.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_7zxNpF"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "square",
+        "hover_navigation_desktop": "none",
+        "section_width": "full-width",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_slideshow_HmkrYA": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_4mjXUM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/umbrellas_shf.jpg",
+            "subheading": "",
+            "heading": "Our Community",
+            "text": "<p><em>Sweet Honey Farm is dedicated to building a community of curious individuals who thrive on cultural exploration, community engagement, unique perspectives, and philanthropic efforts. Our members are committed to living life fully and without compromise.</em></p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/membership-application",
+            "first_button_label": "Join the Community",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "left",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_4mjXUM"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "square",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "full-width",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "slideshow_4DtrHf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ckhtAh": {
+          "type": "image",
+          "settings": {
+            "title": "Goat Yoga",
+            "text": "Weekly yoga classes with our goats.",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/goat-yoga.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 40,
+            "desktop-caption-body-text-size": 16,
+            "mobile_image": "shopify://shop_images/GOATS_MOBILE.jpg",
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 26,
+            "mobile-caption-body-text-size": 14,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 30
+          }
+        },
+        "image_EipEL7": {
+          "type": "image",
+          "settings": {
+            "title": "Barn Gym",
+            "text": "Complete with state-of-the-art equipment.",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/gym-wide.jpg",
+            "text_position": "bottom_left",
+            "desktop-caption-heading-size": 40,
+            "desktop-caption-body-text-size": 16,
+            "mobile_image": "shopify://shop_images/gym_mobile.jpg",
+            "mobile_text_position": "bottom_left",
+            "mobile-caption-heading-size": 26,
+            "mobile-caption-body-text-size": 14,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 30
+          }
+        },
+        "image_ViLkU3": {
+          "type": "image",
+          "settings": {
+            "title": "Traditional Sauna",
+            "text": "Custom-built, 20-person sauna made from 100% cedar wood.",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/sauna-shf.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 40,
+            "desktop-caption-body-text-size": 16,
+            "mobile_image": "shopify://shop_images/sauna-shf.jpg",
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 26,
+            "mobile-caption-body-text-size": 14,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 30
+          }
+        },
+        "image_mmdpgJ": {
+          "type": "image",
+          "settings": {
+            "title": "Cold Plunge",
+            "text": "Multiple cold plunge pools to recover and unwind.",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/plunge-wide.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 40,
+            "desktop-caption-body-text-size": 16,
+            "mobile_image": "shopify://shop_images/plunge-wide.jpg",
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 26,
+            "mobile-caption-body-text-size": 14,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 30
+          }
+        },
+        "image_p8RJgp": {
+          "type": "image",
+          "settings": {
+            "title": "Basketball & Pickleball",
+            "text": "Multi-use year-around basketball and picklyball courts.",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Photo_Mar_20_2025_1_03_45_PM_1.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 40,
+            "desktop-caption-body-text-size": 16,
+            "mobile_image": "shopify://shop_images/Photo_Mar_20_2025_1_03_45_PM_1.jpg",
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 26,
+            "mobile-caption-body-text-size": 14,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_ckhtAh",
+        "image_EipEL7",
+        "image_ViLkU3",
+        "image_mmdpgJ",
+        "image_p8RJgp"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "medium",
+        "mobile_height": "extra_large",
+        "slide_navigation_style": "none",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 40
+      }
+    },
+    "events_calendar_pBQWDX": {
+      "type": "events-calendar",
+      "blocks": {
+        "event_mR9fMn": {
+          "type": "event",
+          "disabled": true,
+          "settings": {
+            "grid_image": "shopify://shop_images/Screenshot_2024-07-11_at_4.04.54_PM.png",
+            "grid_image_size": "square",
+            "day": 12,
+            "month": "Sep",
+            "tbc": false,
+            "day_time": "Thursday, 8:00pm-10:00pm",
+            "price": "",
+            "event_heading": "Members Movie Night",
+            "event_location": "Super Mario Bros Movie",
+            "url": "",
+            "btn_text": "More info"
+          }
+        },
+        "event_ygTHWq": {
+          "type": "event",
+          "settings": {
+            "grid_image": "shopify://shop_images/dsc0511.heic",
+            "grid_image_size": "square",
+            "day": 23,
+            "month": "Sep",
+            "tbc": true,
+            "day_time": "Every Friday, 10:00am",
+            "price": "",
+            "event_heading": "Farm Friday",
+            "event_location": "Yoga, Meditation, Pickleball & more",
+            "url": "",
+            "btn_text": ""
+          }
+        },
+        "event_LybRrz": {
+          "type": "event",
+          "disabled": true,
+          "settings": {
+            "grid_image": "shopify://shop_images/rivage-TJxotQTUr8o-unsplash.jpg",
+            "grid_image_size": "square",
+            "day": 12,
+            "month": "Sep",
+            "tbc": true,
+            "day_time": "Thursday, 3:00pm-5:00pm",
+            "price": "",
+            "event_heading": "After School Arts & Crafts",
+            "event_location": "In the Farmstand",
+            "url": "",
+            "btn_text": ""
+          }
+        },
+        "event_x9yitM": {
+          "type": "event",
+          "settings": {
+            "grid_image": "shopify://shop_images/main-lawn_b627b99c-124b-49bd-8da8-b7276fa87cfc.jpg",
+            "grid_image_size": "square",
+            "day": 22,
+            "month": "Sep",
+            "tbc": true,
+            "day_time": "Sunday, 9:00am-12:00pm",
+            "price": "",
+            "event_heading": "Sunday Reset",
+            "event_location": "Main Lawn & Gym",
+            "url": "",
+            "btn_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "event_mR9fMn",
+        "event_ygTHWq",
+        "event_LybRrz",
+        "event_x9yitM"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Community Events",
+        "description": "<p>Build meaningful relationships with other community members through purposeful events.</p>",
+        "layout": "grid",
+        "cards_per_row": 3,
+        "expand_card": false,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_hVakFY",
+    "image_with_text_overlay_HNc9jk",
+    "rich_text_jptFNL",
+    "175017632708c56590",
+    "gallery_slideshow_MeTnxV",
+    "rich_text_4tPJGV",
+    "gallery_slideshow_HxWN9V",
+    "rich_text_8KnfDE",
+    "image_with_text_overlay_BWhV7P",
+    "rich_text_Yb4dFH",
+    "template_product_info_columns_mQrFty",
+    "template_product_info_columns_PTKVm8",
+    "gallery_slideshow_R9b6rV",
+    "image_with_text_slideshow_LNfAMx",
+    "image_with_text_slideshow_HmkrYA",
+    "slideshow_4DtrHf",
+    "events_calendar_pBQWDX"
+  ]
+}

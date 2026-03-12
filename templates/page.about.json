@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "narrow"
+      }
+    },
+    "image_with_text_overlay_gCp4UY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_6Ghj63": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Ghj63"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/about2_e5767622-14ff-4dc5-b1b4-6aa7dabdb5fb.jpg",
+        "height_desktop": "450px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 35
+      }
+    },
+    "rich_text_X3ywAC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iWJek6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our History",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_E8hhzN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>Sweet Honey Farm is located in Morganville, New Jersey and while our CSA offering is new, the farm is not. Our property has been dedicated farm land since 1836.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWJek6",
+        "richtext_E8hhzN"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_slideshow_tdGpG6": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_mAjKf9": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/about_devon.jpg",
+            "subheading": "Deveon Lévesque",
+            "heading": "Meet the Founder",
+            "text": "<p>Devon was raised on a farm in New Hampshire, where he tended to cows, horses, chickens, goats and sprawling fields from age 4 to 16.</p><p> </p><p>After several years immersed in the nightlife industry across Jersey City and New York, Devon began to long for the slower-paced days of his childhood farm life and the meditative calm that comes from physical labor – early morning farm chores, caring for animals, and tending to the land.</p><p> </p><p>In an effort to return to his roots and the environment that brought out his best self, Devon purchased 15 acres of farmland in 2021 as his first home. This land would become Sweet Honey Farm. Devon quickly noticed the community the farm attracted and the positive effect it had on its guests—people always left with a smile on their face.</p><p> </p><p>Inspired by this, Devon transformed his private home into a CSA farm, where members have access to the animals, organic eggs, vegetables, and everything else the farm has to offer.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "left",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_mAjKf9"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "square",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "full-width",
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "gallery_E9Jaeh": {
+      "type": "gallery",
+      "blocks": {
+        "image_fjpiXw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_277f17e4-14c0-4dc5-9486-92b4908fdbc5.jpg",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_zeaYjg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_57093ac8-b3bc-4a66-adbf-99a899473b07.jpg",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_QzAAE3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mainhouse-5.jpg",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_hVhpkr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coldplunge_mobile.jpg",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_fjpiXw",
+        "image_zeaYjg",
+        "image_QzAAE3",
+        "image_hVhpkr"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "content-position": "overlay",
+        "full-width": false,
+        "grid_image_size": "natural",
+        "buttons_style": "filled",
+        "section-width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "remove-spacing": false,
+        "colors": "white"
+      }
+    },
+    "rich_text_EJ7KFM": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4Jb7Eb": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>\"The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.\" </em></p><p><em>- Masanobu Fukuoka</em></p>",
+            "text_size": 24,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4Jb7Eb"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_DkknGJ": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_desktop": "shopify://shop_images/68-42.jpg",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_gCp4UY",
+    "rich_text_X3ywAC",
+    "image_with_text_slideshow_tdGpG6",
+    "gallery_E9Jaeh",
+    "rich_text_EJ7KFM",
+    "image_with_text_overlay_DkknGJ"
+  ]
+}

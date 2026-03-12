@@ -1,0 +1,654 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h3",
+            "margin_bottom": 10
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_font": "h3",
+            "shipping_policy": true,
+            "tax_included": false,
+            "margin_bottom": 10
+          }
+        },
+        "loop_subscriptions_loop_widget_V4z738": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
+          "settings": {}
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant_style": "swatches",
+            "hide_out_of_stock_variants": false,
+            "thumbnail_changes_variant": true,
+            "size_guide_label": "",
+            "size_guide_page": "",
+            "size_option_name": "Size",
+            "margin_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "margin_bottom": 20
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": false,
+            "enable_gift_card_recipient_form": false,
+            "margin_bottom": 20,
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "product_description_cgbKp8": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "none",
+            "heading": "Description",
+            "open_close_icon": "caret",
+            "open_by_default": true,
+            "margin_bottom": 10
+          }
+        },
+        "collapsible_tab_rpf8wG": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "heading": "DELIVERY & RETURNS",
+            "open_close_icon": "caret",
+            "open_by_default": false,
+            "icon": "none",
+            "text": "<p>Orders placed before 2pm EST will ship same day.</p><p>Ground shipping usually arrives 2-5 days.</p><p>Expedited shipping usually arrives 1-3 days.</p><p>Sales are final. No Return. No Refunds.</p>",
+            "page": "",
+            "margin_bottom": 30
+          }
+        },
+        "text_with_icon_3DLY7W": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping",
+            "link": "",
+            "margin_bottom": 30,
+            "text_color": "#242424"
+          }
+        },
+        "text_with_icon_9jxNEH": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "store",
+            "text": "All sales are final",
+            "link": "",
+            "margin_bottom": 30,
+            "text_color": "#242424"
+          }
+        },
+        "text_with_icon_bQtgyp": {
+          "type": "text-with-icon",
+          "disabled": true,
+          "settings": {
+            "icon": "gift",
+            "text": "Free farm-fresh honey with every order",
+            "link": "",
+            "margin_bottom": 30,
+            "text_color": "#242424"
+          }
+        },
+        "kiwi_size_chart_recommender_kiwi_sizing_DJyKGU": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}",
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "loop_subscriptions_loop_widget_V4z738",
+        "options",
+        "quantity",
+        "buy_buttons",
+        "product_description_cgbKp8",
+        "collapsible_tab_rpf8wG",
+        "text_with_icon_3DLY7W",
+        "text_with_icon_9jxNEH",
+        "text_with_icon_bQtgyp",
+        "kiwi_size_chart_recommender_kiwi_sizing_DJyKGU"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "media_position": "left",
+        "image_size": "large",
+        "image_shape": "square",
+        "image-display": "grid",
+        "thumbnail_position": "below",
+        "image_display_mobile": "thumbnails",
+        "enable_video_loop": false,
+        "enable_autoplay": false,
+        "show_video_controls": false,
+        "app_margin_bottom": 30
+      }
+    },
+    "accordion_with_image_9XykTT": {
+      "type": "accordion-with-image",
+      "blocks": {
+        "accordion_gFgJ6j": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Key Features",
+            "open_by_default": false,
+            "text": "<p><strong>Heel-To-Toe Drop: </strong>10mm<br/><strong>Shoe Shape: </strong>Naturally shaped, featuring a spacious toe box for foot comfort<strong><br/>Cushion: </strong>High<strong><br/>Weight: </strong>9.5 oz<strong><br/>Support: </strong>Neutral<br/><strong>Best For: </strong>Road and non-technical soft surface<br/><strong>Foam: </strong>EVA, OBC, POE, & TPU<br/><strong>Width: </strong>A naturally-shaped D width for toe movement.<br/><strong>Shoe Geometry: </strong>Rocker geometry for a smooth heel-to-toe transition</p>",
+            "page": ""
+          }
+        },
+        "accordion_AhdjTG": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Additional Features",
+            "open_by_default": false,
+            "text": "<p><strong>Tongue Type: </strong>Gusseted (attached)<br/><strong>Outsole Material: </strong>Rubber<br/><strong>Upper Material: </strong>Light, breathable, woven<br/><strong>Heel Counter: </strong>To keep your heel locked in place<br/><strong>Heel Stack Height: </strong>39mm<br/><strong>Forefoot Stack Height: </strong>29mm</p>",
+            "page": ""
+          }
+        },
+        "accordion_WKrGhm": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Returns & Exchanges",
+            "open_by_default": false,
+            "text": "<p><strong>All sales are final.</strong> All sales on shoes are final. No returns or exchanges will be accepted. </p>",
+            "page": ""
+          }
+        },
+        "accordion_DnVHyD": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_gFgJ6j",
+        "accordion_AhdjTG",
+        "accordion_WKrGhm",
+        "accordion_DnVHyD"
+      ],
+      "name": "t:sections.product--accordion-with-image.presets.name",
+      "settings": {
+        "section_title": "",
+        "section_description": "",
+        "faq_icon": "plus_minus",
+        "accordion_image": "shopify://shop_images/green-noseleft.jpg",
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "light"
+      }
+    },
+    "custom_section_NhmHgw": {
+      "type": "custom-section",
+      "blocks": {
+        "feature_3WnkQa": {
+          "type": "feature",
+          "settings": {
+            "title": "Foot Comfort",
+            "text": "Naturally shaped wide toe boxes to promote natural foot movement",
+            "icon_image": "shopify://shop_images/1239040-200.png",
+            "icon_emoji": "📞",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_gYKmw6": {
+          "type": "feature",
+          "settings": {
+            "title": "Relief From Lower Leg Tightness",
+            "text": "An elevated heel drop helps reduce tension on your Achilles tendons and calves.",
+            "icon_image": "shopify://shop_images/Icons_RELIEF_FROM_LOWER_LEG_-TIGHTNESS-5.webp",
+            "icon_emoji": "💬",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_4U9MMA": {
+          "type": "feature",
+          "settings": {
+            "title": "Impact Protection",
+            "text": "Engineered foam designed to absorb the impact instead of your joints.",
+            "icon_image": "shopify://shop_images/Icons_IMPACT_PROTECTION-6.webp",
+            "icon_emoji": "💲",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_VUX4p8": {
+          "type": "feature",
+          "settings": {
+            "title": "Light As A Feather",
+            "text": "Weighs just 9.5 oz, with a feather-light blend of EVA, OBC, POE, and TPU foams.",
+            "icon_image": "shopify://shop_images/feather_images_e2e977f0-2111-416b-a634-053a8545d26f.png",
+            "icon_emoji": "",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_3WnkQa",
+        "feature_gYKmw6",
+        "feature_4U9MMA",
+        "feature_VUX4p8"
+      ],
+      "name": "Features",
+      "settings": {
+        "custom_class": "",
+        "heading": "What Makes the Horsepower Ascent Different?",
+        "subheading": "Designed to get you to the starting line stronger",
+        "cols_tablet": 2,
+        "cols_desktop": 4,
+        "gap": 20,
+        "max_w": 1200,
+        "pad_y_m": 48,
+        "pad_y_d": 80,
+        "bg_color": "#fff6e8",
+        "card_bg": "#ffffff",
+        "card_border_color": "#e6e6e6",
+        "card_radius": 16,
+        "card_shadow": true,
+        "icon_bg": "#dff5e5",
+        "icon_size": 48,
+        "section_classes": "",
+        "container_classes": "",
+        "grid_classes": "",
+        "card_classes": "",
+        "icon_wrap_classes": "",
+        "icon_img_classes": "",
+        "icon_emoji_classes": "",
+        "heading_classes": "",
+        "subheading_classes": "",
+        "title_classes": "",
+        "text_classes": "",
+        "link_classes": ""
+      }
+    },
+    "scrolling_banner_BV8p9c": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_BjXFnL": {
+          "type": "text",
+          "settings": {
+            "text": "Farm fresh honey with every order  🐝",
+            "font": "body",
+            "style": "fill",
+            "font_size_desktop": 20,
+            "font_size_mobile": 20
+          }
+        },
+        "icon_eJhUUK": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "truck",
+            "icon_height_desktop": 30,
+            "icon_height_mobile": 30
+          }
+        }
+      },
+      "block_order": [
+        "text_BjXFnL",
+        "icon_eJhUUK"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "dark"
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "disabled": true,
+      "settings": {
+        "open_close_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "enable_readmore": true
+      }
+    },
+    "collage_JCTTh3": {
+      "type": "collage",
+      "blocks": {
+        "image_eWFLke": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/compressed_1S1A4264.jpg",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_bbJgBq": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1S1A4047.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_He8Tj3": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/compressed_1S1A4404.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_7XwXwb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/compressed_1S1A4331.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_RRGFim": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/compressed_1S1A4251.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading": "",
+            "heading_size": 60,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_eWFLke",
+        "image_bbJgBq",
+        "image_He8Tj3",
+        "image_7XwXwb",
+        "image_RRGFim"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "template_product_recommendations_Hp4WCj": {
+      "type": "template--product--recommendations",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "description": "",
+        "layout_style": "slider",
+        "products_to_show": 3,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "accent",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "template_product_recently_viewed_iADc3G": {
+      "type": "template--product--recently-viewed",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "layout_style": "grid",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_slideshow_hbnXKQ": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_hQ6pNx": {
+          "type": "image_and_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/0C9FhD6Q.webp",
+            "subheading": "Health & Wellness in Africa",
+            "heading": "Giving Back with Every Order",
+            "text": "<p>The DML Group Foundation is on a mission to build the Maasai Healthcare Center for the Monduli districts in Tanzania. </p><p>A portion of proceeds from every single order will go towards bringing health and wellness to people in the Monduli districts. </p>",
+            "page": "",
+            "slide_link": "#",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "center",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "#4a6151"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_hQ6pNx"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "square",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "logo_list_Vtt44H": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_zLTUxa": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/DML_white_1.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_zLTUxa"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "width": 240,
+        "override_border_radius": false,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "dark"
+      }
+    },
+    "174607343045f73863": {
+      "type": "apps",
+      "blocks": {
+        "kiwi_size_chart_recommender_kiwi_sizing_NCpmPy": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}",
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
+        }
+      },
+      "block_order": [
+        "kiwi_size_chart_recommender_kiwi_sizing_NCpmPy"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "175443245604ae4591": {
+      "type": "apps",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "accordion_with_image_9XykTT",
+    "custom_section_NhmHgw",
+    "scrolling_banner_BV8p9c",
+    "product-description",
+    "collage_JCTTh3",
+    "template_product_recommendations_Hp4WCj",
+    "template_product_recently_viewed_iADc3G",
+    "image_with_text_slideshow_hbnXKQ",
+    "logo_list_Vtt44H",
+    "174607343045f73863",
+    "175443245604ae4591"
+  ]
+}

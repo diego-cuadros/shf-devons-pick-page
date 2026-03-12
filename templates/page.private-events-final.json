@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "custom_liquid_8p9wGM": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".custom-survey {height: 580px;}",
+        "@media only screen and (max-width: 749px) {.custom-survey {height: 500px; }}"
+      ],
+      "name": "t:sections.advanced-layout--custom-liquid.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "custom_liquid": "<div data-tf-live=\"01KC0Q2GJXP5X2EZQTC9YG5HXC\" class = \"custom-survey\" ></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
+        "section_width": "content",
+        "section_padding_top": 5,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "17210681381cfca419": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_rAgBFr": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "biWc7xVa4iTqgoIk0XSQ_A",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_rAgBFr"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "rich_text_QKYNHA": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_rwT6JG": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Thank you for your interest in Sweet Honey Farm</p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_rwT6JG"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_8p9wGM",
+    "17210681381cfca419",
+    "rich_text_QKYNHA"
+  ]
+}

@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "accordion": {
+      "type": "accordion",
+      "blocks": {
+        "accordion-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do I need to sign a waiver at the farm?",
+            "text": "<p>If you plan to participate in any activities including the animals or farm tours, yes, you will sign a waiver on site.</p>"
+          }
+        },
+        "accordion-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What are your operating hours?",
+            "text": "<p>Both weekday and weekend hours located in the footer below. </p>"
+          }
+        },
+        "accordion-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I bring my own food or beverages?",
+            "text": "<p>Yes, you can bring non-alcoholic beverages and food onto the farm. We will ask if you can make a purchase if within the coffee shop. </p>"
+          }
+        },
+        "accordion-3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are you pet-friendly?",
+            "text": "<p>No, please do not bring pets unless it is a service animal. If you need additional info, please reach out to info@sweethoneyfarm.co</p>"
+          }
+        },
+        "accordion-4": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How can I contact your coffee shop for additional information?",
+            "text": "<p>Please go to our contact form page to complete for our team to review and respond. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion-0",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "accordion-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus",
+        "colors": "dark"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "narrow"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion"
+  ]
+}

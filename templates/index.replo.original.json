@@ -1,0 +1,948 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "replo_bcd_homepage_hero_zYVFYp": {
+      "type": "replo-bcd-homepage-hero",
+      "name": "BCD Homepage Hero",
+      "settings": {
+        "replo_text_f807fdaa-d9a3-441d-9403-177c7d796eb5": "<p>Introducing <em>Behind Closed Doors<\/em><\/p>",
+        "replo_text_8abdf9c5-96de-4a76-b183-a1f1f0de86ad": "<p>Join Devon’s Weekly Call With World-Class Operators<\/p>",
+        "replo_text_f3a64742-5318-495c-a431-fba8092604f1": "<p>Live calls, Q&As, and a private group chat with Devon and leaders from the biggest brands in the world.<\/p>",
+        "replo_text_f3243aac-7fe9-48f7-8ec5-dd05844c5d0b": "<p>150+ Members<\/p>",
+        "replo_url_cb6a745a-7a86-4fa8-98ef-7b8a3b72d8b9": "",
+        "replo_text_05486b02-fa00-4abb-bb44-7578aadb9c02": "<p>Explore the Virtual Community<\/p>",
+        "replo_url_e14bb72c-491f-45cb-a32a-72a1a743f959": "",
+        "replo_text_e14bb72c-491f-45cb-a32a-72a1a743f959": "<p><span style=\"text-decoration:underline\">Looking for more info on our New Jersey Farm?<\/span><\/p>"
+      }
+    },
+    "video_hero_QtXFD7": {
+      "type": "video-hero",
+      "disabled": true,
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/website vid square.mov",
+        "url": "",
+        "video_alt_text": "Spend the day at Sweet Honey Farm",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "550",
+        "textAlignment": "center",
+        "link": "",
+        "title": "Life's Better on the Farm",
+        "subheading": "Cold plunges, good soil, and even better people. Come for the view—stay for the reset.",
+        "textShadow": true,
+        "heading--text-size": 66,
+        "subheading--text-size": 24,
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button-background": "#e68819",
+        "button-text": "#ffffff",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "textColor": "#fff9eb"
+      }
+    },
+    "video_mKwhAm": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "video": "shopify:\/\/files\/videos\/website vid square.mov",
+        "url": "",
+        "video_alt_text": "",
+        "loop": true,
+        "autoplay": true,
+        "mute": true,
+        "show_controls": false,
+        "width_classes": 100,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white",
+        "video_overlay_opacity": 50,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "custom_section_nyigMa": {
+      "type": "custom-section",
+      "blocks": {
+        "feature_raAytQ": {
+          "type": "feature",
+          "settings": {
+            "title": "20 Acres of Amenities",
+            "text": "Join our community and enjoy the amenities at our farm.",
+            "icon_emoji": "🌲",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_U7m3U7": {
+          "type": "feature",
+          "settings": {
+            "title": "Curated Community",
+            "text": "Connect with like-minded entrepreneurs and wellness enthusiasts.",
+            "icon_emoji": "👥",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_4LD3CN": {
+          "type": "feature",
+          "settings": {
+            "title": "Access to Industry Leaders",
+            "text": "Live, members-only sessions with founders and experts. Access from anywhere.",
+            "icon_emoji": "💻",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_Pg4a3c": {
+          "type": "feature",
+          "settings": {
+            "title": "Private Community Access",
+            "text": "Direct access to high-level founders, investors, and operators",
+            "icon_emoji": "💬",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_M7KcRJ": {
+          "type": "feature",
+          "settings": {
+            "title": "Exclusive Investment Access",
+            "text": "Early access to real estate and business investment deals.",
+            "icon_emoji": "💲",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "feature_Ua4GQQ": {
+          "type": "feature",
+          "settings": {
+            "title": "Lifestyle Meets Growth",
+            "text": "Where business success and wellbeing go hand in hand.",
+            "icon_emoji": "💚",
+            "icon_bg": "",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_raAytQ",
+        "feature_U7m3U7",
+        "feature_4LD3CN",
+        "feature_Pg4a3c",
+        "feature_M7KcRJ",
+        "feature_Ua4GQQ"
+      ],
+      "name": "Features",
+      "settings": {
+        "custom_class": "",
+        "heading": "What Makes Us Different",
+        "subheading": "We’ve created a unique ecosystem where business growth, personal wellness, and meaningful connections flourish together.",
+        "cols_tablet": 2,
+        "cols_desktop": 3,
+        "gap": 20,
+        "max_w": 1200,
+        "pad_y_m": 48,
+        "pad_y_d": 80,
+        "bg_color": "#fff6e8",
+        "card_bg": "#ffffff",
+        "card_border_color": "#e6e6e6",
+        "card_radius": 16,
+        "card_shadow": true,
+        "icon_bg": "#dff5e5",
+        "icon_size": 48,
+        "section_classes": "",
+        "container_classes": "",
+        "grid_classes": "",
+        "card_classes": "",
+        "icon_wrap_classes": "",
+        "icon_img_classes": "",
+        "icon_emoji_classes": "",
+        "heading_classes": "",
+        "subheading_classes": "",
+        "title_classes": "",
+        "text_classes": "",
+        "link_classes": ""
+      }
+    },
+    "pricing_table_NUJkT7": {
+      "type": "pricing-table",
+      "blocks": {
+        "plan_Nf3Mir": {
+          "type": "plan",
+          "settings": {
+            "plan_title": "Signature Member",
+            "plan_subtitle": "Remote access to our community",
+            "price_prefix": "",
+            "price": "",
+            "price_suffix": "",
+            "highlight": false,
+            "badge_text": "Most Popular",
+            "features_included": "Weekly Industry Leader Calls\nNutrition & Workout Plan\nPrivate Group Chats\nProperty Access 2 Days Per Month\nProfessional Blood Testing\nEvents + Gatherings\n2 Guest Passes Per Month",
+            "features_excluded": "Daily Property Access\nExclusive Merch\nPrivate Event Access\nDML Investment Access",
+            "button_label": "Join Today",
+            "button_link": "shopify:\/\/products\/signature-membership"
+          }
+        },
+        "plan_gEiBbF": {
+          "type": "plan",
+          "settings": {
+            "plan_title": "Founding Member",
+            "plan_subtitle": "Full access to our community",
+            "price_prefix": "",
+            "price": "",
+            "price_suffix": "",
+            "highlight": true,
+            "badge_text": "Most Popular",
+            "features_included": "Weekly Industry Leader Calls\nPrivate Group Chats\nNutrition & Workout Plan\nDaily Property Access\nProfessional Blood Testing\nEvents + Gatherings\n4 Guest Passes per Month\nDML Investment Access",
+            "features_excluded": "Daily Guest Passes\nExclusive Merch\nPrivate Event Access",
+            "button_label": "Apply Now",
+            "button_link": "shopify:\/\/products\/apply-for-founding-member"
+          }
+        },
+        "plan_pndewM": {
+          "type": "plan",
+          "settings": {
+            "plan_title": "Executive Founding Member",
+            "plan_subtitle": "Exclusive founder-level access",
+            "price_prefix": "",
+            "price": "",
+            "price_suffix": "",
+            "highlight": false,
+            "badge_text": "",
+            "features_included": "Weekly Industry Leader Calls\nPrivate Group Chats\nNutrition & Workout Plan\nDaily Property Access\nProfessional Blood Testing\nEvents + Gatherings\nDaily Guest Passes\nExclusive Merch\nPrivate Event Access\nDML Investment Access",
+            "features_excluded": "",
+            "button_label": "Apply Now",
+            "button_link": "shopify:\/\/products\/executive-founding-member-application-deposit"
+          }
+        }
+      },
+      "block_order": [
+        "plan_Nf3Mir",
+        "plan_gEiBbF",
+        "plan_pndewM"
+      ],
+      "disabled": true,
+      "name": "Pricing table (3 plans)",
+      "settings": {
+        "heading": "Choose Your Experience",
+        "subheading": "From founder-level access to virtual membership, find the perfect level of access for your wellness and business journey.",
+        "max_width": 1100,
+        "section_bg": false,
+        "columns_mobile": "1",
+        "columns_tablet": "2",
+        "columns_desktop": "3"
+      }
+    },
+    "slideshow_akTQUh": {
+      "type": "slideshow",
+      "blocks": {
+        "image_t4Xy6c": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify:\/\/shop_images\/D20A2767.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_t4Xy6c"
+      ],
+      "settings": {
+        "desktop_height": "extra_large",
+        "mobile_height": "medium",
+        "slide_navigation_style": "none",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0
+      }
+    },
+    "rich_text_g3cDPA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gGEkmg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Health, Wealth, and High-Performance Coaching from Founders, Athletes, and Industry Leaders.",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_HGaBKg": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Join Devon Lévesque and an elite circle of founders and industry leaders at Sweet Honey Farm for a transformative mastermind. You’ll train like a pro, think like a mogul, and walk away with the habits, tools, and mindset to scale your health, business, and legacy. This isn’t a retreat—it’s your launchpad to greatness.<\/p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_ifCpgm": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify:\/\/pages\/8-week-mastermind-with-devon-levesque",
+            "button_text": "Mastermind Info",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_gGEkmg",
+        "richtext_HGaBKg",
+        "button_ifCpgm"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "slideshow_EcVwxi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MXHgaF": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify:\/\/shop_images\/red_light_therapy.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MXHgaF"
+      ],
+      "settings": {
+        "desktop_height": "extra_large",
+        "mobile_height": "medium",
+        "slide_navigation_style": "none",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0
+      }
+    },
+    "rich_text_i7yXUw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9XDmFW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reclaim your clarity, energy, and connection—right here on the farm.",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_d7djiy": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Sweet Honey Farm membership is your all-access pass to daily wellness, seasonal gardens, and immersive experiences in nature. This is where high performers slow down to level up.<\/p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_B6ACJN": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Membership Info",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_9XDmFW",
+        "richtext_d7djiy",
+        "button_B6ACJN"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "slideshow_7jCqhm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AeMHPH": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify:\/\/shop_images\/71-35.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AeMHPH"
+      ],
+      "settings": {
+        "desktop_height": "extra_large",
+        "mobile_height": "medium",
+        "slide_navigation_style": "none",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0
+      }
+    },
+    "rich_text_mGctNU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yFfwbi": {
+          "type": "heading",
+          "settings": {
+            "heading": "20 acres. One unforgettable experience. Built for teams, communities, and brands.",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_9MLr8q": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Sweet Honey Farm is more than a venue—it’s a setting for connection, celebration, and impact. Whether you're planning a founder retreat, brand activation, or intimate gathering, our property blends farm charm with high-end amenities.<br\/><\/p><p>Customize your experience, bring your people together, and host something that actually means something.<\/p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_wpnQQ3": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify:\/\/pages\/private-events",
+            "button_text": "Private Event Info",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yFfwbi",
+        "richtext_9MLr8q",
+        "button_wpnQQ3"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "rich_text_QP7LEz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QpqDzj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Farm Life, Wherever You Are",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_N36R8c": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Our gear brings the spirit of Sweet Honey Farm into your daily life. Every piece reflects quality, utility, and a love of the land.<\/p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpqDzj",
+        "richtext_N36R8c"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "dark"
+      }
+    },
+    "featured_collection_4xHTTp": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "collection": "summer-2025-gear-drop",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "dark"
+      }
+    },
+    "featured_product_MptVmx": {
+      "type": "featured-product",
+      "settings": {
+        "title": "Spend a Day on the Farm",
+        "description": "<p>Spend a full day immersed in the rhythm of farm life with a Day Pass—enjoy amenities, and join a guided tour to meet the animals, explore the gardens, and experience sustainable living up close.<\/p>",
+        "featured_product": "sweet-honey-farm-day-pass",
+        "image-placement": "left",
+        "image_size": "large",
+        "image_shape": "square",
+        "image-display": "thumbnails",
+        "thumbnail_position": "below",
+        "image_display_mobile": "slider",
+        "enable_video_loop": false,
+        "enable_autoplay": false,
+        "show_video_controls": false,
+        "title_font": "h3",
+        "price_font": "h3",
+        "variant_style": "dropdowns",
+        "hide_out_of_stock_variants": false,
+        "show-giftwrap": false,
+        "show-vendor": false,
+        "show_product_description": false,
+        "show_quantity_selector": false,
+        "show_add_to_cart": true,
+        "show_smart_checkout": true,
+        "size_guide_label": "Size guide",
+        "size_guide_page": "",
+        "size_option_name": "Size",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "color_scheme": "accent",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "template_product_info_columns_yHmPcx": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_bNxhHG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHF-gym.jpg",
+            "grid_image_size": "square",
+            "heading": "Longevity Barn",
+            "text": "<p>State of the art equipment by Techno Gym, free weights, treadmills, and weekly classes.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_QKWA39": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmstand-3_41b4d889-975f-4431-8f2c-712c410f9f9e.jpg",
+            "grid_image_size": "square",
+            "heading": "The Farmstand",
+            "text": "<p>Coffee, espresso drinks, tea and fresh pastries. Members enjoy a free beverage daily.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_qMUVB9": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sauna-shf.jpg",
+            "grid_image_size": "square",
+            "heading": "Traditional Sauna",
+            "text": "<p>Custom built, 20-person sauna, made from 100% cedar wood and complete with two Hum stoves. <\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_WBmWt8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Mar_20_2025_1_01_49_PM.jpg",
+            "grid_image_size": "square",
+            "heading": "Basketball Court",
+            "text": "<p>Year-round full-court outdoor basketball for summer fun & winter workouts.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_i7KmDe": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/produce.jpg",
+            "grid_image_size": "square",
+            "heading": "Fresh Produce",
+            "text": "<p>Step into the garden and pick fresh, organically grown, in-season produce to bring home.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_rRJfLP": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_bc17261c-2835-4b9b-b4cb-2168131aa2bd.jpg",
+            "grid_image_size": "square",
+            "heading": "Infrared Sauna",
+            "text": "<p>Good for detoxification, improved circulation, pain relief, skin health, immune support & more.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_me4kEd": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shf-house.jpg",
+            "grid_image_size": "square",
+            "heading": "Co-Working Space",
+            "text": "<p>7,000 sq ft co-working space in the farm house. Find a quiet corner or work alongside members.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_w6hTJw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.jpg",
+            "grid_image_size": "square",
+            "heading": "Cold Plunge",
+            "text": "<p>powerful, self filtering cold plunges to aid recovery, enhance mental clarity and so much more.<\/p>",
+            "button_link": "shopify:\/\/pages\/membership",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_bNxhHG",
+        "image_and_text_QKWA39",
+        "image_and_text_qMUVB9",
+        "image_and_text_WBmWt8",
+        "image_and_text_i7KmDe",
+        "image_and_text_rRJfLP",
+        "image_and_text_me4kEd",
+        "image_and_text_w6hTJw"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_class": "",
+        "title": "The Farm",
+        "description": "",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "section_width": "full",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_Ew36bn": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_D4WNUe": {
+          "type": "heading",
+          "settings": {
+            "title": "Explore the Farmstand",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_imWpDt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our on-site coffee shop and cafe available for private events.<\/p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_iWjp9F": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify:\/\/pages\/farmstand",
+            "first_button_label": "Learn More",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4WNUe",
+        "text_imWpDt",
+        "button_iWjp9F"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/farmstand-2_08675c84-5ea8-46cc-a65b-002c2cca1618.jpg",
+        "height_desktop": "750px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify:\/\/shop_images\/farmstand-2.jpg",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 25,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 35
+      }
+    },
+    "172106400311404713": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_C7QRzd": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        },
+        "hextom_shipping_bar_fsb_custom_placement_TyFN7U": {
+          "type": "shopify:\/\/apps\/hextom-shipping-bar\/blocks\/fsb-custom-placement\/7ef5d9af-75a2-45c7-9b1b-f9240ee488e9",
+          "settings": {}
+        },
+        "hulk_form_builder_form_block_AQNpTL": {
+          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "TdBjAp6ye4kfGdfwr5DQPw",
+            "form_settings": false,
+            "font_color": "#4a6151",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 0,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#4a6151",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_C7QRzd",
+        "hextom_shipping_bar_fsb_custom_placement_TyFN7U",
+        "hulk_form_builder_form_block_AQNpTL"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "featured_collection_FBf6yF": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Shop Gear",
+        "description": "",
+        "collection": "hats",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 2,
+        "grid-desktop": 2,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "membership_contact_form_CHPkQa": {
+      "type": "membership-contact-form",
+      "blocks": {
+        "name_input_RV9TeQ": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input_NQywTp": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input_PeccnA": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input_Cm9DBb": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_RV9TeQ",
+        "email_input_NQywTp",
+        "tel_input_PeccnA",
+        "message_input_Cm9DBb"
+      ],
+      "name": "Membership Contact Form",
+      "settings": {
+        "title": "Contact us",
+        "description": "<p>Have a question, or want a product recommendation? Get in touch.<\/p>",
+        "form_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section_color_scheme": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "replo_bcd_homepage_hero_zYVFYp",
+    "video_hero_QtXFD7",
+    "video_mKwhAm",
+    "custom_section_nyigMa",
+    "pricing_table_NUJkT7",
+    "slideshow_akTQUh",
+    "rich_text_g3cDPA",
+    "slideshow_EcVwxi",
+    "rich_text_i7yXUw",
+    "slideshow_7jCqhm",
+    "rich_text_mGctNU",
+    "rich_text_QP7LEz",
+    "featured_collection_4xHTTp",
+    "featured_product_MptVmx",
+    "template_product_info_columns_yHmPcx",
+    "image_with_text_overlay_Ew36bn",
+    "172106400311404713",
+    "featured_collection_FBf6yF",
+    "membership_contact_form_CHPkQa"
+  ]
+}

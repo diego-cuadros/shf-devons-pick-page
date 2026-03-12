@@ -1,0 +1,1067 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_KzQNeC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_xWPHbg": {
+          "type": "heading",
+          "settings": {
+            "title": "Private Events",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Xye6df": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Host your event at Sweet Honey Farm</p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_Vj3hpk": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "https://sweethoneyfarm.co/pages/private-event-form",
+            "first_button_label": "More Info",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_xWPHbg",
+        "text_Xye6df",
+        "button_Vj3hpk"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/69-39.jpg",
+        "height_desktop": "450px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "400px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 50
+      }
+    },
+    "rich_text_Bia4Jz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4yxedf": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_zP6w7n": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>Welcome to Sweet Honey Farm, a 10-acre haven where you can escape the busyness of everyday life and immerse yourself in a vibrant, engaged community. Our property is centered around three pillars that enrich your daily routine: Farm Experiences, where you can connect with nature through hands-on activities like picking fresh produce and tending to animals; World-Class Amenities, offering exclusive access to wellness and recovery features such as saunas, red-light therapy, and cold plunges; and versatile event spaces, perfect for hosting anything from small, intimate gatherings to large corporate events.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_4yxedf",
+        "richtext_zP6w7n"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_nrXx9Y": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_g4Pi6A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/devon_farm_-03.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tgFW7Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/62-60.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gNHUM3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/68-42.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jRehP8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/71-35.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_g4Pi6A",
+        "image_tgFW7Y",
+        "image_gNHUM3",
+        "image_jRehP8"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "center",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 20,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "rich_text_CTz97i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qL49gm": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FARMSTAND",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_9tA4TC": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>The Farm Stand is a cozy farm café ideal for smaller, intimate events, company off-sites, and birthday parties. Surrounded by lush pastures and friendly farm animals, it provides a unique and inviting atmosphere for any occasion.</p>",
+            "text_size": 16,
+            "text_bottom_spacing": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_qL49gm",
+        "richtext_9tA4TC"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_3KaRCA": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_6w6xmP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Farmstand-1.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zaN3Fr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farmstand-3_41b4d889-975f-4431-8f2c-712c410f9f9e.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Yciagt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farmstand-2_08675c84-5ea8-46cc-a65b-002c2cca1618.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_f3h7mN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/farmstand-4_9c39d909-8445-47aa-9362-8d649fdf4386.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_6w6xmP",
+        "image_zaN3Fr",
+        "image_Yciagt",
+        "image_f3h7mN"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "rich_text_8cEJbr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jyBbVQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAIN HOUSE",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_gn4Ytw": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>Enjoy endless amenities: sauna, cold plunges, saltwater pool, grill, and bar—just outside. Inside, discover various hangout spots, meditation rooms, and a full kitchen. No need to choose between indoor or outdoor—you'll have access to both!</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_jyBbVQ",
+        "richtext_gn4Ytw"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_tr9brp": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_3WETcW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shf-house.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_f6Rha9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mainhouse-2_26da5ce3-1843-4049-900c-bdd6d518937a.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_g4RCwa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mainhouse-3_66a7ac50-45d2-43fd-829a-4896b5206764.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Vqm7JN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/30-30.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3WETcW",
+        "image_f6Rha9",
+        "image_g4RCwa",
+        "image_Vqm7JN"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "rich_text_9LTTfr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NFaQhN": {
+          "type": "heading",
+          "settings": {
+            "heading": "RECOVERY & LOUNGE DECK",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_C9La7w": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>The recovery and lounge deck on the farm is a versatile and inviting space, perfect for hosting everything from casual BBQs to more wellness-oriented events throughout the year.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_NFaQhN",
+        "richtext_C9La7w"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_td9y9t": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_cx8dnn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lounge-1_97704d8e-0e75-4386-b7d1-7b1f224bebab.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wxXpy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lounge-2.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qD4BQc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41-56.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Bi7Njy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/plunge-wide.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_cx8dnn",
+        "image_wxXpy6",
+        "image_qD4BQc",
+        "image_Bi7Njy"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "rich_text_qJe7H6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGAUrE": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GYM",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_BzTBrb": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>The recovery and lounge deck on the farm is a versatile and inviting space, perfect for hosting everything from casual BBQs to more wellness-oriented events throughout the year.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGAUrE",
+        "richtext_BzTBrb"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_ctCNGm": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_WFe9TW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SWEETHONEYFARM--3443.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PN9Jj9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52-72.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Ydgqcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/53-73.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YA8QKP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_bc17261c-2835-4b9b-b4cb-2168131aa2bd.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WmQbhb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SWEETHONEYFARM--3445.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WFe9TW",
+        "image_PN9Jj9",
+        "image_Ydgqcb",
+        "image_YA8QKP",
+        "image_WmQbhb"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "rich_text_ygchRB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3EPMT4": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE GARDEN",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_TLXNDB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>Our organic garden is a vibrant space where we grow fresh, seasonal produce using sustainable, natural methods. It also offers visitors a chance to experience the art of organic farming and the importance of environmental stewardship.</em></p>",
+            "text_size": 16,
+            "text_bottom_spacing": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_3EPMT4",
+        "richtext_TLXNDB"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_pMffJa": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_8XXiRQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_277f17e4-14c0-4dc5-9486-92b4908fdbc5.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tMgczL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/produce.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pNKKJ8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SWEETHONEYFARM--3350.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9ahpzP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SWEETHONEYFARM--3345.jpg",
+            "link": "",
+            "button_label": "",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8XXiRQ",
+        "image_tMgczL",
+        "image_pNKKJ8",
+        "image_9ahpzP"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "square",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 2,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_ftprnD": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Vh444E": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/1Z9A0453.jpg",
+            "grid_image_size": "wide",
+            "heading": "",
+            "text": "<p><em><strong>Wellness</strong></em></p><ul><li>30+ person traditional sauna</li><li>Cold plunging</li><li>Infrared sauna</li><li>Red light therapy</li><li>Saltwater pool</li><li>Barn gym with state-of-the-art equipment</li><li>Hyperbaric chamber</li><li>Yoga, HIIT, Pilates, Mediation, Sound bath classes + more</li><li>Multi-use Pickleball and Basketball courts</li></ul><p><em><strong>Animal Interactions</strong></em></p><ul><li>Goat yoga</li><li>Horseback rides</li><li>Highland cows encounter</li><li>Equine Therapy </li></ul><p><em><strong>Culinary Experiences</strong></em></p><ul><li>Farm to table brunches and dinners</li><li>Fresh produce</li><li>Garden and greenhouse tours</li></ul>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Vh444E"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "AMENITIES",
+        "description": "",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 1,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "section_width": "full",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "accent"
+      }
+    },
+    "animated_text_BeRYBM": {
+      "type": "animated-text",
+      "blocks": {
+        "text_static_CfhAfm": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>Book the Farmstand for</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_D3EiHC": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "birthdays, corporate events, bridal showers, special moments,",
+            "animation_timing": 500,
+            "rotation_interval": 4600,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_CfhAfm",
+        "text_dynamic_D3EiHC"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "left",
+        "text_size_desktop": 54,
+        "height_mobile": "s",
+        "text_position_mobile": "left",
+        "text_size_mobile": 38,
+        "section_width": "full",
+        "section_margin_top": 30,
+        "section_margin_bottom": 30,
+        "colors": "white"
+      }
+    },
+    "collage_Xga3n7": {
+      "type": "collage",
+      "blocks": {
+        "image_xJkBHT": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/A7408752-Enhanced-NR.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_Yid9JL": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1Z9A0421.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_QWgYGJ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1Z9A0453.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_YMrAGz": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/devon_farm_-66.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_xJkBHT",
+        "image_Yid9JL",
+        "image_QWgYGJ",
+        "image_YMrAGz"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "width_1": "4",
+        "height_1": "3",
+        "width_2": "4",
+        "height_2": "3",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "rich_text_grPtUA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gaTerX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Host at the Farmstand",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_RE6iqV": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>For birthday parties, graduations, corporate gatherings, and celebrations... Fill out the form linked in the button below to submit a request for your public event at Sweet Honey Farm.</em></p>",
+            "text_size": 20,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_4AMRtJ": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_text": "Private Event Inquiry",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_gaTerX",
+        "richtext_RE6iqV",
+        "button_4AMRtJ"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_KzQNeC",
+    "rich_text_Bia4Jz",
+    "gallery_slideshow_nrXx9Y",
+    "rich_text_CTz97i",
+    "gallery_slideshow_3KaRCA",
+    "rich_text_8cEJbr",
+    "gallery_slideshow_tr9brp",
+    "rich_text_9LTTfr",
+    "gallery_slideshow_td9y9t",
+    "rich_text_qJe7H6",
+    "gallery_slideshow_ctCNGm",
+    "rich_text_ygchRB",
+    "gallery_slideshow_pMffJa",
+    "template_product_info_columns_ftprnD",
+    "animated_text_BeRYBM",
+    "collage_Xga3n7",
+    "main",
+    "rich_text_grPtUA"
+  ]
+}

@@ -1,0 +1,180 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "rich_text_V66kdF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jVWNKe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Memership Application",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_VtEmm4": {
+          "type": "richtext",
+          "settings": {
+            "text": "",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_jVWNKe",
+        "richtext_VtEmm4"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "17210681381cfca419": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_ndqC3T": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XkD2WJ"
+          }
+        },
+        "hulk_form_builder_form_block_rAgBFr": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
+          "settings": {
+            "form_uuid": "TdBjAp6ye4kfGdfwr5DQPw",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_ndqC3T",
+        "hulk_form_builder_form_block_rAgBFr"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "rich_text_qFcpki": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_3NPkAG": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Thank you for your interest in Sweet Honey Farm</p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_3NPkAG"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "slideshow_iYaVmf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EGtHPH": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#E68819",
+            "button-text": "#FFFFFF",
+            "image": "shopify://shop_images/SweetHoneyFarmCo.BrownCowTee-CalfInField.jpg",
+            "text_position": "center",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_EGtHPH"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large",
+        "slide_navigation_style": "bars",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_V66kdF",
+    "17210681381cfca419",
+    "rich_text_qFcpki",
+    "slideshow_iYaVmf"
+  ]
+}

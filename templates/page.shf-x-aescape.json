@@ -1,0 +1,224 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "rich_text_HaeDa6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LaVcxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aescape Personalized Massage at the Farm",
+            "heading--text-size": 32,
+            "heading_bottom_spacing": 40
+          }
+        }
+      },
+      "block_order": [
+        "heading_LaVcxi"
+      ],
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "slideshow_igBCnc": {
+      "type": "slideshow",
+      "blocks": {
+        "image_3jwwwK": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/header_284d83.webp",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "caption-text": "#ffffff",
+            "image_overlay": "#242424",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3jwwwK"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "desktop_height": "original",
+        "mobile_height": "original",
+        "slide_navigation_style": "none",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 10,
+        "section_padding_bottom": 40
+      }
+    },
+    "rich_text_xxGDwU": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_FB9VaV": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Step into Sweet Honey Farm, a wellness oasis a step outside New York City where intentional living, productivity, and community come together. A Day Pass grants you access to a transformative space redefining the way we recharge, connect, and grow.</p>",
+            "text_size": 18,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_FB9VaV"
+      ],
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 10,
+        "section_padding_bottom": 40,
+        "colors": "white"
+      }
+    },
+    "image_with_text_PHmAjd": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/aescape-down-close-arms-optimized.webp",
+        "layout": "right",
+        "title": "",
+        "text": "<p>Enjoy a full spectrum of restorative amenities including a cedar wood sauna, infrared sauna, cold plunges, a saltwater pool, and a hyperbaric chamber - now enhanced by the cutting-edge Aescape Massage Table for a deeply personalized, state-of-the-art recovery experience.</p>",
+        "text_alignment": "left",
+        "text_overlapping_image": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "white"
+      }
+    },
+    "image_with_text_33mkXV": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/aecsape.jpg",
+        "layout": "left",
+        "title": "",
+        "text": "<p>Move your body in our fully equipped gym, settle into focused work in our thoughtfully designed shared spaces, and nourish yourself with farm to table meals grown right here on our regenerative land. Whether you’re here to unwind, create, or connect, every detail is crafted to support your highest self.</p>",
+        "text_alignment": "left",
+        "text_overlapping_image": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "white"
+      }
+    },
+    "174534850950154d62": {
+      "type": "apps",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "featured_product_9KpDMP": {
+      "type": "featured-product",
+      "name": "t:sections.products--featured-product.presets.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "featured_product": "farm-day-pass-aescape-massage",
+        "image-placement": "left",
+        "image_size": "small",
+        "image_shape": "square",
+        "image-display": "thumbnails",
+        "thumbnail_position": "below",
+        "image_display_mobile": "slider",
+        "enable_video_loop": false,
+        "enable_autoplay": false,
+        "show_video_controls": false,
+        "title_font": "h3",
+        "price_font": "h3",
+        "variant_style": "swatches",
+        "hide_out_of_stock_variants": false,
+        "show-giftwrap": false,
+        "show-vendor": false,
+        "show_product_description": true,
+        "show_quantity_selector": false,
+        "show_add_to_cart": true,
+        "show_smart_checkout": false,
+        "size_guide_label": "Size guide",
+        "size_guide_page": "",
+        "size_option_name": "Size",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "color_scheme": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "newsletter_9MwmEw": {
+      "type": "newsletter",
+      "name": "t:all.Newsletter",
+      "settings": {
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": "",
+        "textAlignment": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_HaeDa6",
+    "slideshow_igBCnc",
+    "rich_text_xxGDwU",
+    "image_with_text_PHmAjd",
+    "image_with_text_33mkXV",
+    "174534850950154d62",
+    "featured_product_9KpDMP",
+    "newsletter_9MwmEw"
+  ]
+}

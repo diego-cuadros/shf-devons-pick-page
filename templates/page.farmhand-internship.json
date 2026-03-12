@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "rich_text_HaeDa6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LaVcxi": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Farmhand Internship 2025",
+            "heading--text-size": 26,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_a9fccQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5><strong>Job Summary</strong><br/></h5><p>We are seeking dedicated and hardworking farmhands to join our Sweet Honey Farm team for the spring / summer seasons. The ideal candidates will have a passion for farming and a willingness to learn various aspects of farm operations. This role involves working outdoors in various weather conditions and requires physical stamina, attention to detail, and the ability to work as part of a team.</p><p> </p><h5><strong>Duties</strong></h5><ul><li>Perform daily farm tasks including planting, cultivating, and harvesting crops.</li><li>Care for animals (horses, cows, goats, and chickens) by feeding, watering, and monitoring their health.</li><li>Operate and maintain farm equipment such as tractors, forklifts, and other heavy machinery.</li><li>Assist with equipment repair as needed.</li><li>Utilize power tools for various farm projects.</li><li>Implement animal husbandry practices to ensure the well-being of all animals on the farm.</li><li>Perform heavy lifting tasks as required for moving supplies and equipment.</li></ul><p> </p><h5><strong>Experience</strong></h5><p>Previous experience in farming or agricultural work is preferred, but not mandatory</p><ul><li>Familiarity with equine / bovine / avian / caprine care</li><li>Experience in operating heavy equipment safely and efficiently</li><li>Skills in equipment repair </li><li>A strong understanding of animal husbandry practices</li><li>Ability to work collaboratively with others while also being self-motivated</li></ul><p>Join our team today to contribute to sustainable farming practices while gaining valuable experience in the agricultural industry!</p><h5><strong> </strong></h5><ul><li><strong>Job Type:</strong> Part-time (Possibility for Full-Time)</li><li><strong>Pay: </strong>*UNPAID* | Benefits: Farm-fresh meals cooked by on-site chefs, access to wellness / recovery amenities (saunas, cold plunge, gym, pool, hyperbaric chamber, various farm activities, exclusive networking opportunities, etc.)</li><li><strong>Schedule: </strong>2-3 days a week for 3 months (Spring - Summer)</li></ul><h5><strong><br/>Work Location: </strong></h5><p><strong>Sweet Honey Farm </strong></p><p><strong>395 Tennent Road</strong></p><p><strong>Morganville, NJ 07751</strong></p><p></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_LaVcxi",
+        "richtext_a9fccQ"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 30,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "1722991226a5af77cf": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_DhC4DF": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
+          "settings": {
+            "form_uuid": "GohnK4EzVOlWYSytVy0eZA",
+            "form_settings": true,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 0,
+            "border": 0,
+            "fill_color": "#fff9eb",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Lucida"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_DhC4DF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "174534850950154d62": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_rx4pfw": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "437434",
+            "text_color": "#202020",
+            "button_background_color": "#4a6151",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 36,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_rx4pfw"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_HaeDa6",
+    "1722991226a5af77cf",
+    "174534850950154d62"
+  ]
+}

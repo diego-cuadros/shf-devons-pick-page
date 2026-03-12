@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_KzQNeC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_xWPHbg": {
+          "type": "heading",
+          "settings": {
+            "title": "Farm Day Pass",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "heading_xWPHbg"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Redfarmtruckinfrontoffarmstand.jpg",
+        "height_desktop": "450px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "400px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 50
+      }
+    },
+    "rich_text_Bia4Jz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4yxedf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thank you for booking a day at the farm.",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "button_Gyz79n": {
+          "type": "button",
+          "settings": {
+            "button_link": "https://sweethoneyfarm.co/cart",
+            "button_text": "Checkout Now",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_4yxedf",
+        "button_Gyz79n"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "colors": "white"
+      }
+    },
+    "image_with_text_slideshow_cfMckf": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_Vpjf4E": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/cold-plunge-devon.jpg",
+            "subheading": "Your Day on the Farm",
+            "heading": "What to Bring",
+            "text": "<ul><li>Workout clothes or change of clothes</li><li>Water bottle</li><li>Bathing suit</li></ul><p>Towels are provided at check-in and in our pool and sauna areas.</p><p>Our team will be in touch with you as your date gets closer. </p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/private-event-form",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Vpjf4E"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "wide",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "content",
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "rich_text_n6bRdf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PgiptQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amenities",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_WYiMVN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ul><li><em><strong>Wellness</strong></em></li><li>Traditional sauna</li><li>Cold plunging</li><li>Infrared sauna</li><li>Red light therapy</li><li>Saltwater pool</li><li>Barn gym with state-of-the-art equipment</li><li>Hyperbaric chamber</li><li>Yoga, HIIT, Pilates, Mediation, Sound bath classes + more</li><li>Multi-use Pickleball and Basketball courts</li><li><em><strong> </strong></em></li><li><em><strong>Animal Interactions</strong></em></li><li>Goat yoga</li><li>Horseback rides</li><li>Highland cows encounter</li><li></li><li><em><strong>Coworking</strong></em></li><li>Strong Wifi</li><li>Outdoor and Indoor Coworking Spaces</li><li>Conference Room with Flatscreen</li></ul>",
+            "text_size": 16,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_PgiptQ",
+        "richtext_WYiMVN"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "dark"
+      }
+    },
+    "collage_Xga3n7": {
+      "type": "collage",
+      "blocks": {
+        "image_xJkBHT": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/A7408752-Enhanced-NR.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_Yid9JL": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1Z9A0421.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_QWgYGJ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1Z9A0453.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_YMrAGz": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Devon_loving_on_horse.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_xJkBHT",
+        "image_Yid9JL",
+        "image_QWgYGJ",
+        "image_YMrAGz"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "width_1": "4",
+        "height_1": "3",
+        "width_2": "4",
+        "height_2": "3",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_KzQNeC",
+    "rich_text_Bia4Jz",
+    "image_with_text_slideshow_cfMckf",
+    "rich_text_n6bRdf",
+    "collage_Xga3n7",
+    "main"
+  ]
+}

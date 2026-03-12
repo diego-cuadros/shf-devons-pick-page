@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "countdown_LLhmFz": {
+      "type": "countdown",
+      "blocks": {
+        "countdown_timer_jTqH67": {
+          "type": "countdown_timer",
+          "settings": {
+            "hide_when_complete": false,
+            "end_date": "09-18-2025",
+            "end_time": "",
+            "time_labels": true
+          }
+        }
+      },
+      "block_order": [
+        "countdown_timer_jTqH67"
+      ],
+      "disabled": true,
+      "name": "t:sections.countdown.name",
+      "settings": {
+        "image": "shopify://shop_images/locked_shoe_1_9473a8da-d26c-4805-ba49-e3358c7dd1ec.jpg",
+        "height_desktop": "650px",
+        "text_alignment": "center",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "background_color": "#969696",
+        "overlay_color": "#242424",
+        "overlay_opacity": 0
+      }
+    },
+    "1722991226a5af77cf": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_3dhxcA": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-LARGE-eVIuSLIJTkVj"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_EgjzWp": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TZvHnb"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_3dhxcA",
+        "klaviyo_email_marketing_sms_form_embed_block_EgjzWp"
+      ],
+      "settings": {
+        "section_padding_top": 20,
+        "section_padding_bottom": 40,
+        "include_margins": false
+      }
+    },
+    "scrolling_banner_wYGdFW": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_68kEdE": {
+          "type": "text",
+          "settings": {
+            "text": "Limited Edition",
+            "font": "body",
+            "style": "outline",
+            "font_size_desktop": 36,
+            "font_size_mobile": 28
+          }
+        }
+      },
+      "block_order": [
+        "text_68kEdE"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "accent"
+      }
+    },
+    "featured_collection_edHY8e": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "A little piece of the farm",
+        "description": "",
+        "collection": "hats",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 2,
+        "grid-desktop": 2,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "countdown_LLhmFz",
+    "1722991226a5af77cf",
+    "scrolling_banner_wYGdFW",
+    "featured_collection_edHY8e"
+  ]
+}
