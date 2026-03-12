@@ -221,6 +221,11 @@ async function hashEmail(email) {
   {% if template.name == 'article' %}
     <script src="{{ 'textSlideshow.js' | asset_url }}" defer="defer"></script>
   {% endif %}
+
+  {% comment %} This is instrument sans serif font that is used in the custom banner section. {% endcomment %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <script>
 function getVariantFromURL() {
