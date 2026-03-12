@@ -1,12 +1,15 @@
 {{ 'template-collection.min.css' | asset_url | stylesheet_tag: preload: true }}
+{% if template.suffix == 'devons-picks' %}
+  {{ 'devons-picks.css' | asset_url | stylesheet_tag }}
+{% endif %}
 
-{%-liquid 
+{%- liquid
   assign filtering_enabled = false
   if section.settings.enable_filtering or section.settings.enable_sorting
     if collection.all_products_count > 1
       assign filtering_enabled = true
     endif
-  endif 
+  endif
 
   assign header_enabled = false
   if section.settings.enable_collection_description and collection.description != blank
@@ -17,12 +20,15 @@
   endif
 -%}
 
-<section class="shopify-section wrapper-spacing--v--template wrapper-spacing--h">
+<section
+  class="shopify-section wrapper-spacing--v--template wrapper-spacing--h"
+  style="{% if section.settings.custom_background_color != blank %}background-color: {{ section.settings.custom_background_color }};{% endif %}"
+>
   <div class="width--content collection_grid{% if filtering_enabled or header_enabled %} filtering_enabled--{{ section.settings.desktop_position }}{% endif %}">
-
     {% unless filtering_enabled == false and header_enabled == false %}
-      {% render 'main-collection-filtering-sorting' with 
-        collection: collection, 
+      {%
+        render 'main-collection-filtering-sorting' with
+        collection: collection,
         classes: "grid-area--filtering",
         desktop_position: section.settings.desktop_position,
         enable_collection_title: section.settings.enable_collection_title,
@@ -32,7 +38,8 @@
       %}
     {% endunless %}
 
-    {% render 'main-collection-grid' with 
+    {%
+      render 'main-collection-grid' with
       classes: "grid-area--collection",
       blocks: section.blocks,
       desktop_products_per_row: section.settings.desktop-products-per-row,
@@ -40,7 +47,6 @@
       products_per_page: section.settings.products-per-page,
       pagination_options: section.settings.pagination_options
     %}
-
   </div>
 </section>
 
@@ -51,6 +57,11 @@
     {
       "type": "header",
       "content": "t:all.Layout"
+    },
+    {
+      "type": "color",
+      "id": "custom_background_color",
+      "label": "Use custom background color"
     },
     {
       "type": "range",

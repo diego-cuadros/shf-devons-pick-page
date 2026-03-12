@@ -1,0 +1,73 @@
+.quick-add-wrapper {
+  display: none !important;
+}
+
+.product-grid--title a {
+  font-family: "manrope", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #1e3932 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-grid--title a {
+    font-size: 20px;
+  }
+}
+
+.product-price--regular,
+.price--sale-price {
+  font-family: "manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 160% !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-price--regular,
+  .price--sale-price {
+    font-size: 18px !important;
+  }
+}
+
+.product-grid--price .money:not(.sale-price):not(.price-line-through),
+.product-grid--price a {
+  color: #4a6151 !important;
+}
+
+.price--compare-at-price {
+  font-family: "manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 160% !important;
+  color: #4a6151 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .price--compare-at-price {
+    font-size: 18px !important;
+  }
+}
+
+.dc_price-discount-percentage {
+  display: block;
+  background-color: #2e9f7d;
+  color: #fff;
+  font-family: "manrope", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 160%;
+  padding: 2px 4px;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 768px) {
+  .dc_price-discount-percentage {
+    font-size: 14px;
+    display: inline;
+  }
+}

@@ -1,38 +1,39 @@
 {{ 'section-collection-list.min.css' | asset_url | stylesheet_tag }}
 
-{% unless section.settings.content-position == 'below-image' %}
-    {% assign stretch_img = true %}
-    <style>
-        .section--{{ section.id }} .homepage-collection-grid-inner {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-        }
+{% unless section.settings['content-position'] == 'below-image' %}
+  {% assign stretch_img = true %}
+  <style>
+    .section--{{ section.id }} .homepage-collection-grid-inner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 
-        .section--{{ section.id }} .homepage-collection-grid-inner .grid-image,
-        .section--{{ section.id }} .homepage-collection-grid-inner .grid-item-details--hover,
-        .section--{{ section.id }} .homepage-collection-grid-inner .grid-item-details--overlay {
-            grid-column: 1 / 2;
-            grid-row: 1 / 2;
-        }
+    .section--{{ section.id }} .homepage-collection-grid-inner .grid-image,
+    .section--{{ section.id }} .homepage-collection-grid-inner .grid-item-details--hover,
+    .section--{{ section.id }} .homepage-collection-grid-inner .grid-item-details--overlay {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
 
-        .section--{{ section.id }} .homepage-collection-grid-inner .responsive-image-wrapper,
-        .section--{{ section.id }} .homepage-collection-grid-inner .responsive-image-wrapper img {
-            height: 100%;
-        }
-    </style>
+    .section--{{ section.id }} .homepage-collection-grid-inner .responsive-image-wrapper,
+    .section--{{ section.id }} .homepage-collection-grid-inner .responsive-image-wrapper img {
+        height: 100%;
+    }
+  </style>
 {% else %}
-    {% assign stretch_img = false %}
+  {% assign stretch_img = false %}
 {% endunless %}
 
-{% if section.settings.remove-spacing and section.settings.section-width == 'full' %}
-    {% assign no-spacing = ' no-spacing' %}
+{% if section.settings['remove-spacing'] and section.settings['section-width'] == 'full' %}
+  {% assign no-spacing = ' no-spacing' %}
 {% else %}
-    {% assign no-spacing = '' %}
+  {% assign no-spacing = '' %}
 {% endif %}
 
 {% if section.settings.override_button_colors %}
-  {% render 'button-color-overrides' with
+  {%
+    render 'button-color-overrides' with
     id: section.id,
     style: section.settings.buttons_style,
     text_color: section.settings.button_text_color,
@@ -46,26 +47,23 @@
   data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
+  {%- assign items-per-row = section.settings['items-per-row'] -%}
 
-	{%- assign items-per-row = section.settings.items-per-row -%}
-
-	<div class="homepage-collections-background{% if section.settings.section-width == 'content' %} width--content{% endif %}">
-
+  <div class="homepage-collections-background{% if section.settings.section-width == 'content' %} width--content{% endif %}">
     {% comment %} Section title and description {% endcomment %}
     {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
 
     <div class="section--{{ section.id }}">
-      {% liquid 
+      {% liquid
         assign content_placement = 'overlay'
-        if section.settings.content-position == 'below-image'
+        if section.settings['content-position'] == 'below-image'
           assign content_placement = 'below'
         endif
       %}
 
       <div class="collection-grid collection-grid--items-{{ items-per-row }}{% if section.settings.remove-spacing %} remove-spacing expand-grid{% else %} keep-spacing{% endif %}{% if content_placement == 'below' %} content-below-image{% endif %}">
-
         {% for block in section.blocks %}
-          {% liquid 
+          {% liquid
             assign overlay_color_30 = 'color-mix(in srgb, rgba(' | append: block.settings.overlay_color.rgba | append: '), transparent 70%)'
             assign overlay_color_80 = 'color-mix(in srgb, rgba(' | append: block.settings.overlay_color.rgba | append: '), transparent 20%)'
           %}
@@ -98,121 +96,174 @@
           <div
             class="homepage-collection-grid-item homepage-collection-grid-item--{{ section.settings.content-position }} block-section--{{ block.id }}"
             data-animate
-            data-animate-order="{% render 'block-animation-offset', 
-              title: section.settings.title, 
-              description: section.settings.description, 
-              base: forloop.index 
-            %}"
+            data-animate-order="
+              {% render 'block-animation-offset',
+                title: section.settings.title,
+                description: section.settings.description,
+                base: forloop.index
+              %}
+            "
             {{ block.shopify_attributes }}
           >
+            <div
+              class="homepage-collection-grid-inner{% unless section.settings.content-position == 'below-image' or section.settings.remove-spacing %} block-radius-clip{% endunless %}"
+              {% if section.settings['content-position'] != 'below-image'
+                and block.settings['overlay-btn-text'] == blank
+              %}
+                data-animate-hover-zoom
+              {% endif %}
+            >
+              <div
+                class="grid-image{% if section.settings.content-position == 'below-image' and section.settings.remove-spacing == false %} block-radius-clip{% endif %}"
+                {% if block.settings.collection == blank and section.settings['content-position'] == 'below-image' %}
+                  data-animate-hover-zoom
+                {% endif %}
+              >
+                {% if block.settings.collection != blank and section.settings['content-position'] == 'below-image' %}
+                  <a
+                    href="{{ collection.url }}"
+                    class="grid-image--centered"
+                    tabindex="-1"
+                    title=""
+                    data-animate-hover-zoom
+                  >
+                {% endif %}
 
-              <div class="homepage-collection-grid-inner{% unless section.settings.content-position == 'below-image' or section.settings.remove-spacing %} block-radius-clip{% endunless %}"{% if section.settings.content-position != 'below-image' and block.settings.overlay-btn-text == blank %} data-animate-hover-zoom{% endif %}>
-
-                <div class="grid-image{% if section.settings.content-position == 'below-image' and section.settings.remove-spacing == false %} block-radius-clip{% endif %}"{% if block.settings.collection == blank and section.settings.content-position == 'below-image' %} data-animate-hover-zoom{% endif %}>
-                  {% if block.settings.collection != blank and section.settings.content-position == 'below-image' %}
-                  <a href="{{ collection.url }}" class="grid-image--centered" tabindex="-1" title="" data-animate-hover-zoom>
-                  {% endif %}
-
-                    {% if collection == empty %}
-                      {% if block.settings.collection_img %}
-                        {% render 'responsive-image' with block.settings.collection_img, class: class, allow_stretch: stretch_img %}
-                      {% else %}
-                        {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-                        {% assign svg_placeholder_classes = 'icon icon--placeholder' %}
-                        {% if section.settings.remove-spacing == false %}
-                          {% assign svg_placeholder_classes = svg_placeholder_classes | append: ' block-radius' %}
-                        {% endif %}
-                        {% unless section.settings.content-position == 'below-image' %}
-                          {% assign svg_placeholder_classes = svg_placeholder_classes | append: ' icon--placeholder--subdued' %}
-                        {% endunless %}
-                        {{ 'collection-' | append: current | placeholder_svg_tag: svg_placeholder_classes }}
-                      {% endif %}
-                    {% else %}
-                      {% if block.settings.collection_img %}
-                        {% assign image = block.settings.collection_img %}
-                      {% elsif collection.image %}
-                        {% assign image = collection.image %}
-                      {% elsif collection.products.size > 0 %}
-                        {% assign product = collection.products | first %}
-                        {% assign image = product.media[0].preview_image %}
-                      {% else %}
-                        {% assign image = nil %}
-                      {% endif %}
-
-                      {% if section.blocks.size == 1 %}
-                        {% assign class = 'homepage-collection-grid-image-single' %}
-                      {% else %}
-                        {% assign class = '' %}
-                      {% endif %}
-
-                      {% render 'responsive-image' with image, class: class, allow_stretch: stretch_img %}
+                {% if collection == empty %}
+                  {% if block.settings.collection_img %}
+                    {% render 'responsive-image' with block.settings.collection_img,
+                      class: class,
+                      allow_stretch: stretch_img
+                    %}
+                  {% else %}
+                    {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                    {% assign svg_placeholder_classes = 'icon icon--placeholder' %}
+                    {% if section.settings['remove-spacing'] == false %}
+                      {% assign svg_placeholder_classes = svg_placeholder_classes | append: ' block-radius' %}
                     {% endif %}
+                    {% unless section.settings['content-position'] == 'below-image' %}
+                      {% assign svg_placeholder_classes = svg_placeholder_classes
+                        | append: ' icon--placeholder--subdued'
+                      %}
+                    {% endunless %}
+                    {{ 'collection-' | append: current | placeholder_svg_tag: svg_placeholder_classes }}
+                  {% endif %}
+                {% else %}
+                  {% if block.settings.collection_img %}
+                    {% assign image = block.settings.collection_img %}
+                  {% elsif collection.image %}
+                    {% assign image = collection.image %}
+                  {% elsif collection.products.size > 0 %}
+                    {% assign product = collection.products | first %}
+                    {% assign image = product.media[0].preview_image %}
+                  {% else %}
+                    {% assign image = null %}
+                  {% endif %}
 
-                  {% if block.settings.collection != blank and section.settings.content-position == 'below-image' %}
+                  {% if section.blocks.size == 1 %}
+                    {% assign class = 'homepage-collection-grid-image-single' %}
+                  {% else %}
+                    {% assign class = '' %}
+                  {% endif %}
+
+                  {% render 'responsive-image' with image, class: class, allow_stretch: stretch_img %}
+                {% endif %}
+
+                {% if block.settings.collection != blank and section.settings['content-position'] == 'below-image' %}
                   </a>
+                {% endif %}
+              </div>
+
+              <div
+                class="grid-item-details--{{ section.settings.content-position }}{% if block.settings.show-gradient-overlay and section.settings.content-position != 'below-image' %} grid-item-details--background-gradient{% endif %}{% if section.settings.content-position == 'hover' %} data-animate-hover{% endif %}"
+                {% if section.settings['content-position'] == 'hover' %}
+                  data-animate-hover
+                {% endif %}
+                {% unless section.settings['content-position'] == 'below-image' %}
+                  style="position:relative;"
+                {% endunless %}
+              >
+                {% if section.settings['content-position'] != 'below-image'
+                  and block.settings['overlay-btn-text'] == blank
+                  and block.settings.collection != blank
+                %}
+                  <a href="{{ collection.url }}" class="" tabindex="-1" style="width: 100%;">
+                {% endif %}
+
+                <div class="grid-item__content">
+                  {% assign animation_order = 1 %}
+                  {% if block.settings.subheading != blank %}
+                    {% if section.settings['content-position'] == 'below-image'
+                      and block.settings.collection != blank
+                    %}
+                      <a href="{{ collection.url }}" class="grid-item__subheading" tabindex="-1">
+                    {% endif %}
+                    <div
+                      class="grid-item__subheading"
+                      {% if section.settings['content-position'] == 'hover' %}
+                        data-animate-hover-block data-animate-order="{{ animation_order }}"
+                      {% endif %}
+                    >
+                      {{ block.settings.subheading }}
+                    </div>
+                    {% if section.settings['content-position'] == 'below-image'
+                      and block.settings.collection != blank
+                    %}
+                      </a>
+                    {% endif %}
+                    {% assign animation_order = animation_order | plus: 1 %}
                   {% endif %}
-                </div>
 
-                <div
-                  class="grid-item-details--{{ section.settings.content-position }}{% if block.settings.show-gradient-overlay and section.settings.content-position != 'below-image' %} grid-item-details--background-gradient{% endif %}{% if section.settings.content-position == 'hover' %} data-animate-hover{% endif %}"
-                  {% if section.settings.content-position == 'hover' %}data-animate-hover{% endif %}
-                  {% unless section.settings.content-position == 'below-image' %}style="position:relative;"{% endunless %}
-                >
-                  {% if section.settings.content-position != 'below-image' and block.settings.overlay-btn-text == blank and block.settings.collection != blank %}
-                    <a href="{{ collection.url }}" class="" tabindex="-1" style="width: 100%;">
+                  {% if section.settings['content-position'] == 'below-image' and block.settings.collection != blank %}
+                    <a href="{{ collection.url }}" tabindex="-1">
                   {% endif %}
+                  <h3
+                    class="grid-item__title"
+                    {% if section.settings['content-position'] == 'hover' %}
+                      data-animate-hover-block data-animate-order="{{ animation_order }}"
+                    {% endif %}
+                  >
+                    {{ collection_title }}
+                  </h3>
+                  {% if section.settings['content-position'] == 'below-image' and block.settings.collection != blank %}
+                    </a>
+                  {% endif %}
+                  {% assign animation_order = animation_order | plus: 1 %}
 
-                    <div class="grid-item__content">
-                      {% assign animation_order = 1 %}
-                      {% if block.settings.subheading != blank %}
-                        {% if section.settings.content-position == 'below-image' and block.settings.collection != blank %}
-                          <a href="{{ collection.url }}" class="grid-item__subheading" tabindex="-1">
-                        {% endif %}
-                          <div class="grid-item__subheading"{% if section.settings.content-position == 'hover' %} data-animate-hover-block data-animate-order="{{ animation_order }}"{% endif %}>{{ block.settings.subheading }}</div>
-                        {% if section.settings.content-position == 'below-image' and block.settings.collection != blank %}
-                          </a>
-                        {% endif %}
-                        {% assign animation_order = animation_order | plus: 1 %}
-                      {% endif %}
+                  {% if block.settings['overlay-btn-text'] != blank %}
+                    {% assign aria_label = block.settings['overlay-btn-text']
+                      | append: ' - '
+                      | append: collection_title
+                    %}
 
-                      {% if section.settings.content-position == 'below-image' and block.settings.collection != blank %}
-                        <a href="{{ collection.url }}" tabindex="-1">
-                      {% endif %}
-                        <h3 class="grid-item__title"{% if section.settings.content-position == 'hover' %} data-animate-hover-block data-animate-order="{{ animation_order }}"{% endif %}>{{ collection_title }}</h3>
-                      {% if section.settings.content-position == 'below-image' and block.settings.collection != blank %}
-                        </a>
-                      {% endif %}
-                      {% assign animation_order = animation_order | plus: 1 %}
-
-                      {% if block.settings.overlay-btn-text != blank %}
-                        {% assign aria_label = block.settings.overlay-btn-text | append: ' - ' | append: collection_title %}
-
-                        {% if section.settings.content-position == 'hover' %}
-                          {% capture button_attr %}
+                    {% if section.settings['content-position'] == 'hover' %}
+                      {% capture button_attr %}
                             data-animate-hover-block
                             data-animate-order="{{ animation_order }}"
                           {% endcapture %}
-                        {% endif %}
+                    {% endif %}
 
-                        {% render 'dynamic-section-button' with
-                          id: section.id,
-                          link: collection.url,
-                          label: block.settings.overlay-btn-text,
-                          style: section.settings.buttons_style,
-                          a_classes: 'homepage-featured-box-btn',
-                          aria_label: aria_label,
-                          attributes: button_attr
-                        %}
-                      {% endif %}
-                    </div>
-
-                  {% if section.settings.content-position != 'below-image' and block.settings.overlay-btn-text == blank and block.settings.collection != blank %}
-                    </a>
+                    {%
+                      render 'dynamic-section-button' with
+                      id: section.id,
+                      link: collection.url,
+                      label: block.settings.overlay-btn-text,
+                      style: section.settings.buttons_style,
+                      a_classes: 'homepage-featured-box-btn',
+                      aria_label: aria_label,
+                      attributes: button_attr
+                    %}
                   {% endif %}
                 </div>
 
+                {% if section.settings['content-position'] != 'below-image'
+                  and block.settings['overlay-btn-text'] == blank
+                  and block.settings.collection != blank
+                %}
+                  </a>
+                {% endif %}
               </div>
-
+            </div>
           </div>
         {% endfor %}
         {% if section.blocks.size == 0 %}
@@ -220,13 +271,9 @@
             {{ 'homepage.onboarding.no_content' | t }}
           </div>
         {% endif %}
-
       </div>
-
     </div>
-
   </div>
-
 </div>
 
 {% schema %}
@@ -476,18 +523,7 @@
     }
   ],
   "enabled_on": {
-    "templates": [
-      "404",
-      "article",
-      "blog",
-      "cart",
-      "collection",
-      "index",
-      "page",
-      "password",
-      "product",
-      "search"
-    ]
+    "templates": ["404", "article", "blog", "cart", "collection", "index", "page", "password", "product", "search"]
   }
 }
 {% endschema %}

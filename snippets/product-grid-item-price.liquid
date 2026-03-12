@@ -8,7 +8,7 @@
   {%- render 'product-grid-item-price', price_product: product, collection: collection -%}
 {% endcomment %}
 
-{% liquid 
+{% liquid
   assign on_sale = false
   assign target = price_product
 
@@ -26,7 +26,7 @@
             endif
             break
           elsif option_value.variant.price == price_product.price_min
-            comment 
+            comment
               The current variant in the loop is the cheapest but not on sale - use it as the 'from' price target
             endcomment
             assign target = option_value.variant
@@ -43,7 +43,7 @@
             endif
             break
           elsif option_value.variant.price == price_product.price_max
-            comment 
+            comment
               The current variant in the loop is the most expensive but not on sale - use it as the target 'max' price target
             endcomment
             assign target = option_value.variant
@@ -54,7 +54,7 @@
     endfor
   else
     if price_product.compare_at_price > price_product.price
-      comment 
+      comment
         The product is on sale and there's only one variant - use the product as the target
       endcomment
       assign on_sale = true
@@ -94,22 +94,34 @@
   <span class="money price--sale-price">{{ target_price }}</span>
 {% endcapture %}
 
+{% if template.suffix == 'devons-picks' %}
+  {% capture product_discount_percentage %}
+  {% if on_sale and target.compare_at_price > 0 %}
+    {% assign discount_percentage = target.compare_at_price | minus: target.price | times: 100.0 | divided_by: target.compare_at_price | round %}
+    <div class="dc_price-discount-percentage">{{ discount_percentage }}% OFF</div>
+  {% endif %}
+{% endcapture %}
+{% endif %}
+
 <a href="{{ price_product.url | within: collection }}" data-product-id="{{ price_product.id }}" tabindex="-1">
   {% comment %} On sale {% endcomment %}
   <div class="product-price--sale{% unless on_sale %} hidden{% endunless %}">
     {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
-        {{ from_text }}
+      {{ from_text }}
     {% endif %}
     {{ product_compare_at_price }}
     {{ product_sale_price }}
+    {% if template.suffix == 'devons-picks' %}
+      {{ product_discount_percentage }}
+    {% endif %}
   </div>
 
   {% comment %} Regular {% endcomment %}
   <div class="product-price--regular{% if on_sale %} hidden{% endif %}">
-      {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
-        {{ from_text }}
-      {% endif %}
-      {{ product_price }}
+    {% if price_product.price_varies and settings.when_card_price_varies == 'show_from_price' %}
+      {{ from_text }}
+    {% endif %}
+    {{ product_price }}
   </div>
 
   {% render 'unit-price-measurement-variant', variant: target %}
