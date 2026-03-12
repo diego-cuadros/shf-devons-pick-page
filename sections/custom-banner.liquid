@@ -2,12 +2,20 @@
 <section class="custom-banner custom-page-width">
   <div class="dc_banner__left">
     <div class="dc_banner__left-img-container">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0797/9443/8437/files/Frame_9914786.jpg?v=1773248902"
-        alt="Banner Image"
-        width="100%"
-        height="auto"
-      >
+      {% if section.settings.image != blank %}
+        {{
+          section.settings.image
+          | image_url: width: 2000
+          | image_tag:
+            loading: 'lazy',
+            widths: '375, 550, 750, 1100, 1500, 2000',
+            sizes: '(min-width: 768px) 50vw, 100vw',
+            alt: section.settings.image.alt
+          | default: 'Banner Image'
+        }}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
     </div>
   </div>
   <div class="dc_banner__right" style="background-color: {{ section.settings.content_background_color }};">
@@ -39,6 +47,11 @@
 {
   "name": "🔥Custom banner",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
     {
       "type": "color",
       "id": "content_background_color",
