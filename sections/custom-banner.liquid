@@ -1,0 +1,112 @@
+{{ 'custom-banner.css' | asset_url | stylesheet_tag }}
+<section class="custom-banner custom-page-width">
+  <div class="dc_banner__left">
+    <div class="dc_banner__left-img-container">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0797/9443/8437/files/Frame_9914786.jpg?v=1773248902"
+        alt="Banner Image"
+        width="100%"
+        height="auto"
+      >
+    </div>
+  </div>
+  <div class="dc_banner__right" style="background-color: {{ section.settings.content_background_color }};">
+    <div
+      class="dc_banner__tag"
+      style="background-color: {{ section.settings.tag_background_color }}; color: {{ section.settings.tag_text_color }};"
+    >
+      {{ section.settings.tag }}
+    </div>
+    <h2
+      class="dc_banner__heading"
+      style="        color: {{ section.settings.heading_text_color }};"
+    >
+      {{ section.settings.heading }}
+    </h2>
+    <div class="dc_banner__description">
+      {{ section.settings.description }}
+    </div>
+    <button
+      class="btn dc_banner__button"
+      style="background-color: {{ section.settings.button_background_color }}; color: {{ section.settings.button_text_color }};"
+    >
+      {{ section.settings.button_text }}
+    </button>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "🔥Custom banner",
+  "settings": [
+    {
+      "type": "color",
+      "id": "content_background_color",
+      "label": "Content background color",
+      "default": "#FFF9EB"
+    },
+    {
+      "type": "text",
+      "id": "tag",
+      "label": "Tag text",
+      "default": "Exclusive Deal"
+    },
+    {
+      "type": "color",
+      "id": "tag_background_color",
+      "label": "Tag background color",
+      "default": "#D4F8E3"
+    },
+    {
+      "type": "color",
+      "id": "tag_text_color",
+      "label": "Tag text color",
+      "default": "#069843"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading text",
+      "default": "Devon’s Favorite Products"
+    },
+    {
+      "type": "color",
+      "id": "heading_text_color",
+      "label": "Heading text color",
+      "default": "#000000"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>The brands and products that earned a place in Devon's routine after years of putting them to the test.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Explore The Collection"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color",
+      "default": "#1E3932"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "🔥Custom banner",
+      "settings": {},
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
